@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <ImpidUtility.rulePack.rulesFiles>
+    <li>SylI->WordParts/Syllables_Impid</li>
+    <li>SylI_M->WordParts/Syllables_Impid_Maiúscula</li>
+  </ImpidUtility.rulePack.rulesFiles>
+
+</LanguageData>

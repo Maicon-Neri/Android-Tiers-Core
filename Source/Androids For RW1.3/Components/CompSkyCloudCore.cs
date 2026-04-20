@@ -55,7 +55,7 @@ namespace MOARANDROIDS
             //Affichage minds connectés
             foreach (var p in storedMinds)
             {
-                //Colon digitalisé connecté à un surrogate on trace le lien
+                // Colono digitalizado conectado a um surrogate traça-se o link
                 CompSurrogateOwner cso = Utils.getCachedCSO(p);
 
                 foreach(var csx in cso.availableSX)
@@ -68,7 +68,7 @@ namespace MOARANDROIDS
                 }
             }
 
-            //Affichage turets connectés
+            // Controle de torretas
             foreach(var p in controlledTurrets)
             {
                 if(parent.Map == p.Value.Map)
@@ -82,7 +82,7 @@ namespace MOARANDROIDS
         {
             base.PostSpawnSetup(respawningAfterLoad);
 
-            //Allow to reset kidnapped state if the M8 come back (spawn with isKinapped enabled but not Kidnapped infact)
+            // Permite redefinir o estado de sequestrado se o M8 voltar (spawn com isKinapped habilitado mas não sequestrado de fato)
             if (isKidnapped)
             {
                 if (parent is Pawn)
@@ -108,7 +108,7 @@ namespace MOARANDROIDS
         {
             base.PostDeSpawn(map);
 
-            //If despawn but it's an M8Mech host and he is alive then minds can continue their activities 
+            // Se o M8 for despawnado mas estiver vivo, as mentes podem continuar suas atividades
             if (parentPawn == null || parentPawn.Dead)
             {
                 stopAllMindsActivities();
@@ -121,7 +121,7 @@ namespace MOARANDROIDS
         {
             base.PostDestroy(mode, previousMap);
 
-            //Kill de tous les hotes stockés
+            // Mata todos os hospedeiros armazenados
             if (storedMinds.Count != 0)
             {
                 disconnectAllSurrogates();
@@ -143,11 +143,11 @@ namespace MOARANDROIDS
             switch (signal)
             {
                 case "PowerTurnedOn":
-                    //Definition sec ou le core démarrera vraiment
+                    // Definição de segundos para o core realmente ligar
                     bootGT = Find.TickManager.TicksGame + (Settings.secToBootSkyCloudCore * 60);
                     break;
                 case "PowerTurnedOff":
-                    //Su systeme booté le serveur dit le power Failure
+                    // Se o sistema estiver ligado, o servidor diz que houve falha de energia
                     if (bootGT == -1)
                         Utils.playVocal("soundDefSkyCloudPowerFailure");
 
@@ -156,6 +156,7 @@ namespace MOARANDROIDS
                     Utils.GCATPP.popSkyCloudCore(parent);
                     break;
                 case "AndroidTiers_CaravanInit":
+                    // Se o M8 for despawnado mas estiver vivo, as mentes podem continuar suas atividades
                     if (parent is Pawn)
                     {
                         Pawn cp = (Pawn)parent;
@@ -168,11 +169,11 @@ namespace MOARANDROIDS
 
         public void generateInitialSurvivorsMinds()
         {
-            //If scenario apocalypse then generate 3 human conscioussness
+            // Se o cenário for apocalipse, gera 3 consciências humanas
             if (Current.Game.tickManager.TicksGame == 0 && Current.Game.Scenario.name == "Androids apocalypse")
             {
                 Pawn cp = (Pawn)parent;
-                //Set the initial M8 damage
+                // Define o dano inicial do M8
                 Hediff he = cp.health.hediffSet.GetFirstHediffOfDef(HediffDefOf.DecayedFrame);
                 if(he == null)
                     cp.health.AddHediff(HediffDefOf.DecayedFrame);
@@ -180,7 +181,7 @@ namespace MOARANDROIDS
                 Pawn mind;
                 CompSurrogateOwner cso;
                 PawnGenerationRequest pgr = new PawnGenerationRequest(PawnKindDefOf.AncientSoldier, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, forceGenerateNewPawn: true, newborn: false, allowDead: false, allowDowned: false, canGeneratePawnRelations: true, mustBeCapableOfViolence: false, colonistRelationChanceFactor:1f, forceAddFreeWarmLayerIfNeeded: true, allowGay: true, allowFood: false, allowAddictions: false, inhabitant: false, certainlyBeenInCryptosleep: false, forceRedressWorldPawnIfFormerColonist: false, worldPawnFactionDoesntMatter: false, biocodeWeaponChance: 0f, forceNoBackstory:false);
-                //Generate the 3 humans minds
+                // Gera as 3 consciências humanas
                 for (int i = 0; i != 3; i++)
                 {
                     mind = PawnGenerator.GeneratePawn(pgr);
@@ -194,7 +195,7 @@ namespace MOARANDROIDS
                     storedMinds.Add(mind);
                 }
 
-                //Generate the defense Bot
+                // Gera o robô de defesa
                 pgr = new PawnGenerationRequest(PawnKindDefOf.AndroidT2Colonist, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, forceGenerateNewPawn: true, newborn: false, allowDead: false, allowDowned: false, canGeneratePawnRelations: true, mustBeCapableOfViolence: false, colonistRelationChanceFactor: 1f, forceAddFreeWarmLayerIfNeeded: true, allowGay: true, allowFood: false, allowAddictions: false, inhabitant: false, certainlyBeenInCryptosleep: false, forceRedressWorldPawnIfFormerColonist: false, worldPawnFactionDoesntMatter: false, biocodeWeaponChance: 0f, forceNoBackstory: false);
                 mind = PawnGenerator.GeneratePawn(pgr);
                 setInitialChildhood(mind,"");
@@ -224,7 +225,7 @@ namespace MOARANDROIDS
                         }
                     }
                 }
-                //Basic robot so simple minded trait
+                // Robô básico com traço de mente simples
                 if(!mind.story.traits.HasTrait(TraitDefOf.SimpleMindedAndroid))
                     mind.story.traits.GainTrait(new Trait(TraitDefOf.SimpleMindedAndroid, 0, true));
 
@@ -233,7 +234,7 @@ namespace MOARANDROIDS
                 Current.Game.tickManager.DeRegisterAllTickabilityFor(mind);
                 storedMinds.Add(mind);
 
-                //Unit talk about the fact there is physical damages
+                // Unidade fala sobre o fato de haver danos físicos
                 forceIntegrityWarning = 5;
             }
         }
@@ -273,7 +274,7 @@ namespace MOARANDROIDS
             }
 
 
-            //Application retroactive de la surppression de traits blacklistés pour les minds
+            // Aplicação retroativa da remoção de traços banidos para as mentes
             foreach (var m in storedMinds)
             {
                 Utils.removeMindBlacklistedTrait(m);
@@ -315,7 +316,7 @@ namespace MOARANDROIDS
             }
             else
             {
-                //PowerOn if M8 not dead And not kidnapped Or kidnapped but within the exception time
+                // PowerOn se M8 não estiver morto E não estiver sequestrado OU sequestrado mas dentro do tempo de exceção
                 return !parentPawn.Dead && (!isKidnapped || (KidnappedPendingDisconnectionGT != -1));
             }
         }

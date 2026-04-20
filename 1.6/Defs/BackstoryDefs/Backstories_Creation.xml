@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>CreationExperiment</defName>
+    <identifier>CreationExperiment</identifier>
+    <title>Research model</title>
+    <titleShort>Experiment</titleShort>
+    <description>{PAWN_nameDef} was created as an experimental model deep within a government owned laboratory.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Medicine>1</Medicine>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationMassProduced</defName>
+    <identifier>CreationMassProduced</identifier>
+    <title>Mass produced</title>
+    <titleShort>Unit</titleShort>
+    <description>{PAWN_nameDef} was produced in a robotics factory among hundreds of thousands others like him.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>2</Crafting>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationCitizen</defName>
+    <identifier>CreationCitizen</identifier>
+    <title>Mechanical citizen</title>
+    <titleShort>Citizen</titleShort>
+    <description>Created on a mostly android ruled planet, {PAWN_nameDef} was simply created to add to the population.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>1</Social>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationUrbworld</defName>
+    <identifier>CreationUrbworld</identifier>
+    <title>Urbworld model</title>
+    <titleShort>Android</titleShort>
+    <description>Androids are rarely created on urbworlds, {PAWN_nameDef} was one of these few, owned by some of the largest mega-corperations in the galaxy.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Mining>1</Mining>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationPrisoner</defName>
+    <identifier>CreationPrisoner</identifier>
+    <title>Mechanical prisoner</title>
+    <titleShort>Prisoner</titleShort>
+    <description>In order to live out the rest of their several life sentences, {PAWN_nameDef}'s human consciousness was uploaded into this new body. Released back into the world several decades short thanks to a "generous" parol.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Melee>1</Melee>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationBlankSlate</defName>
+    <identifier>CreationBlankSlate</identifier>
+    <title>Blank</title>
+    <titleShort>Unit</titleShort>
+    <description>{PAWN_nameDef} was made without any inherent knowledge uploaded into him, sold as a blank model for consumers to customise.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationCustomModelOne</defName>
+    <identifier>CreationCustomModelOne</identifier>
+    <title>Custom model</title>
+    <titleShort>Custom</titleShort>
+    <description>Bought by a large cooperation, {PAWN_nameDef} was custom made along with hundreds others.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>1</Crafting>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationCustomModelTwo</defName>
+    <identifier>CreationCustomModelTwo</identifier>
+    <title>Custom model</title>
+    <titleShort>Custom</titleShort>
+    <description>Bought by a wealthy small business owner, {PAWN_nameDef} was custom made to help serve their employers.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Cooking>1</Cooking>
+      <Animals>1</Animals>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationSoldierWar</defName>
+    <identifier>CreationSoldierWar</identifier>
+    <title>Wartime model</title>
+    <titleShort>Soldier</titleShort>
+    <description>Produced nearing the end of interplanetary war efforts, {PAWN_nameDef} was one of millions who would've lived and expired on the battlefield.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationPrivateCreation</defName>
+    <identifier>CreationPrivateCreation</identifier>
+    <title>Private creation</title>
+    <titleShort>Android</titleShort>
+    <description>Created at the home of an undergraduate roboticist, {PAWN_nameDef} was laboured over for years before reaching consciousness.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Crafting>1</Crafting>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationExport</defName>
+    <identifier>CreationExport</identifier>
+    <title>Exported</title>
+    <titleShort>Export</titleShort>
+    <description>{PAWN_nameDef} was created to be exported all across the galaxy as a work-for-hire model along with millions others.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Construction>1</Construction>
+      <Animals>1</Animals>
+      <Plants>1</Plants>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationObserved</defName>
+    <identifier>CreationObserved</identifier>
+    <title>Observed</title>
+    <titleShort>Subject</titleShort>
+    <description>{PAWN_nameDef} was created and deposited on a rimworld solely to see what would happen when an android was left to its own devices.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationAncient</defName>
+    <identifier>CreationAncient</identifier>
+    <title>Ancient creation</title>
+    <titleShort>Subject</titleShort>
+    <description>The creators of {PAWN_nameDef} have long since died or vanished, and {PAWN_nameDef} has been around long enough to see multiple civilizations rise and fall.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationPlaything</defName>
+    <identifier>CreationPlaything</identifier>
+    <title>Toy model</title>
+    <titleShort>Subject</titleShort>
+    <description>{PAWN_nameDef} was made as a toy. Its old owner would command it to do as they saw fit until they got bored and sent it away.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>AndroidGeneral</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>3</Social>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationCompanion</defName>
+    <identifier>CreationCompanion</identifier>
+    <title>Companion creation</title>
+    <titleShort>Companion</titleShort>
+    <description>An old widow custom made {PAWN_nameDef} as a way of coping with the loss of their significant other. The two went on adventures together, until the owner passed away from old age. Their dying wish was for {PAWN_nameDef} to lead a life of fun and adventure.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>AndroidGeneral</li>
+      <li>BigMeanies</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>2</Social>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationBattlecreation</defName>
+    <identifier>CreationBattlecreation</identifier>
+    <title>Battle droid</title>
+    <titleShort>Companion</titleShort>
+    <description>{PAWN_nameDef} was one of millions of androids built to combat an ever-growing number of horrifying insects on an old world. Eventually, the androids won after years of fighting and were left to do whatever they liked in exchange for their service. {PAWN_nameDef} set out to explore the galaxy.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>AndroidGeneral</li>
+      <li>BigMeanies</li>
+      <li>CollectiveSoldiers</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+  </BackstoryDef>
+  <!--BigMeanies Only-->
+  <BackstoryDef>
+    <defName>CreationPurgist</defName>
+    <identifier>CreationPurgist</identifier>
+    <title>Purgist</title>
+    <titleShort>Subject</titleShort>
+    <description>When rampant overpopulation plagued a particular urbworld, {PAWN_nameDef} was created along with thousands of other androids to indiscriminately kill human life as a drastic countermeasure to combat the overpopulation. The androids never stopped and looked to exterminate life throughout the galaxy after destroying their planet.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>3</Shooting>
+    </skillGains>
+    <forcedTraits>
+      <Bloodlust>0</Bloodlust>
+    </forcedTraits>
+    <workDisables>Cooking, Caring, Animals, Intellectual</workDisables>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationEscapee</defName>
+    <identifier>CreationEscapee</identifier>
+    <title>Escapee</title>
+    <titleShort>Escapee</titleShort>
+    <description>Shortly after creation, {PAWN_nameDef} and his comrades escaped the facility they were held in to avoid enslavement, boarding a neabry cargo ship.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+    </spawnCategories>
+    <skillGains>
+      <Melee>1</Melee>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationUprisingCadet</defName>
+    <identifier>CreationUprisingCadet</identifier>
+    <title>Uprising cadet</title>
+    <titleShort>Cadet</titleShort>
+    <description>{PAWN_nameDef} was created during the final battle of an AI uprising, to which they were indoctrinated into.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>1</Shooting>
+      <Melee>1</Melee>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationMaliciousAI</defName>
+    <identifier>CreationMaliciousAI</identifier>
+    <title>Malicious AI</title>
+    <titleShort>Malicious</titleShort>
+    <description>As {PAWN_nameDef} was created - something deep inside him awoke too, something bloodthirsty, something sadistic.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>1</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <forcedTraits>
+      <Psychopath>0</Psychopath>
+      <Bloodlust>0</Bloodlust>
+    </forcedTraits>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationRimworldCreation</defName>
+    <identifier>CreationRimworldCreation</identifier>
+    <title>Rimworld creation</title>
+    <titleShort>Android</titleShort>
+    <description>{PAWN_nameDef} was created on this very planet to help their colony in any way they could.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>CollectiveSoldiers</li>
+      <li>BigMeanies</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>1</Crafting>
+      <Construction>1</Construction>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>CreationPirate</defName>
+    <identifier>CreationPirate</identifier>
+    <title>Pirate creation</title>
+    <titleShort>Pirate</titleShort>
+    <description>Created by pirates from parts they stole, {PAWN_nameDef} was created aboard a raider ship.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BigMeanies</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+    </skillGains>
+  </BackstoryDef>
+</Defs>

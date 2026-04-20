@@ -1,49 +1,179 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
+  <!-- ==================== SkyMind / Surrogate ==================== -->
+
   <ATPP_ConsciousnessUpload.label>Mind upload</ATPP_ConsciousnessUpload.label>
   <ATPP_ConsciousnessUpload.labelNoun>Mind uploading</ATPP_ConsciousnessUpload.labelNoun>
-  
+  <ATPP_ConsciousnessUpload.description>The android's AI core is currently uploading its consciousness to the SkyMind network. Movement and actions are severely impaired during this process.</ATPP_ConsciousnessUpload.description>
+
   <ATPP_NoHost.label>No host connected</ATPP_NoHost.label>
   <ATPP_NoHost.labelNoun>No host connected</ATPP_NoHost.labelNoun>
-  
-  <ATPP_HediffRXChip.label>RX Neural chip</ATPP_HediffRXChip.label>
-  <ATPP_HediffRXChip.labelNoun>A neural chip acting as a personal SkyMind relay.</ATPP_HediffRXChip.labelNoun>
-  
-  <ATPP_HediffVX0Chip.label>VX0 Neural chip</ATPP_HediffVX0Chip.label>
-  <ATPP_HediffVX0Chip.labelNoun>A neural chip to transform the host into a biological surrogate</ATPP_HediffVX0Chip.labelNoun>
-  
-  <ATPP_HediffVX1Chip.label>VX1 Neural Chip</ATPP_HediffVX1Chip.label>
-  <ATPP_HediffVX1Chip.labelNoun>VX1 Neural Chip</ATPP_HediffVX1Chip.labelNoun>
-  
-  <ATPP_HediffVX2Chip.label>VX2 Neural Chip</ATPP_HediffVX2Chip.label>
-  <ATPP_HediffVX2Chip.labelNoun>VX2 Neural Chip</ATPP_HediffVX2Chip.labelNoun>
-  
-  <ATPP_HediffVX3Chip.label>VX3 Neural Chip</ATPP_HediffVX3Chip.label>
-  <ATPP_HediffVX3Chip.labelNoun>VX3 Neural Chip</ATPP_HediffVX3Chip.labelNoun>
-  
+  <ATPP_NoHost.description>This surrogate android has no operator connected to it. Without a consciousness directing it, the android cannot act autonomously.</ATPP_NoHost.description>
+
   <ATPP_InRemoteControlMode.label>Remote control mode enabled</ATPP_InRemoteControlMode.label>
   <ATPP_InRemoteControlMode.labelNoun>Remote control mode enabled</ATPP_InRemoteControlMode.labelNoun>
-  
+  <ATPP_InRemoteControlMode.description>This android is in remote control mode, acting as a surrogate body directed by an operator through the SkyMind network.</ATPP_InRemoteControlMode.description>
+
   <ATPP_RemotelyControlled.label>Remotely controlled</ATPP_RemotelyControlled.label>
   <ATPP_RemotelyControlled.labelNoun>Remotely controlled</ATPP_RemotelyControlled.labelNoun>
-  
-  <ATPP_SolarFlareAndroidImpact.label>Solar Flare</ATPP_SolarFlareAndroidImpact.label>
-  <ATPP_SolarFlareAndroidImpact.LabelNoun>Solar Flare</ATPP_SolarFlareAndroidImpact.LabelNoun>
-  
-  <ATPP_LowNetworkSignal.label>Low SkyMind network signal</ATPP_LowNetworkSignal.label>
-  <ATPP_LowNetworkSignal.labelNoun>Low SkyMind network signal</ATPP_LowNetworkSignal.labelNoun>
-  
-  <ATPP_Rusted.label>Rusted</ATPP_Rusted.label>
-  <ATPP_Rusted.labelNoun>Rusted</ATPP_Rusted.labelNoun>
-  
+  <ATPP_RemotelyControlled.description>This unit is being remotely controlled through the SkyMind network. Its actions are directed by an external consciousness.</ATPP_RemotelyControlled.description>
+
   <ATPP_BlankAndroid.label>Blank Neural Network</ATPP_BlankAndroid.label>
   <ATPP_BlankAndroid.labelNoun>Blank Neural Network</ATPP_BlankAndroid.labelNoun>
-  
+  <ATPP_BlankAndroid.description>The android's neural network has been completely wiped, leaving it an empty shell. It retains no memories, skills, or personality.</ATPP_BlankAndroid.description>
+
   <ATPP_SurrogateInit.label>Connection initialization</ATPP_SurrogateInit.label>
   <ATPP_SurrogateInit.labelNoun>Connection initialization</ATPP_SurrogateInit.labelNoun>
-  
+  <ATPP_SurrogateInit.description>The android is initializing its connection to a new operator. Systems are calibrating and synchronizing with the remote consciousness.</ATPP_SurrogateInit.description>
+
   <ATPP_AssistingMinds.label>Assisting minds from SkyCloud cores</ATPP_AssistingMinds.label>
   <ATPP_AssistingMinds.labelNoun>Assisting minds from SkyCloud cores</ATPP_AssistingMinds.labelNoun>
-  
+  <ATPP_AssistingMinds.description>Additional digitized minds from SkyCloud cores are assisting this android, enhancing its processing power and capabilities.</ATPP_AssistingMinds.description>
+
+  <!-- ==================== Environment / System ==================== -->
+
+  <ATPP_SolarFlareAndroidImpact.label>Solar Flare</ATPP_SolarFlareAndroidImpact.label>
+  <ATPP_SolarFlareAndroidImpact.LabelNoun>Solar Flare</ATPP_SolarFlareAndroidImpact.LabelNoun>
+  <ATPP_SolarFlareAndroidImpact.description>A solar flare is disrupting electromagnetic systems, interfering with the android's electronic components and SkyMind connectivity.</ATPP_SolarFlareAndroidImpact.description>
+
+  <ATPP_LowNetworkSignal.label>Low SkyMind network signal</ATPP_LowNetworkSignal.label>
+  <ATPP_LowNetworkSignal.labelNoun>Low SkyMind network signal</ATPP_LowNetworkSignal.labelNoun>
+  <ATPP_LowNetworkSignal.description>The android is experiencing a weak connection to the SkyMind network, impairing SkyMind-dependent functions.</ATPP_LowNetworkSignal.description>
+
+  <ATPP_Rusted.label>Rusted</ATPP_Rusted.label>
+  <ATPP_Rusted.labelNoun>Rusted</ATPP_Rusted.labelNoun>
+  <ATPP_Rusted.description>This android's frame has corroded due to prolonged exposure to moisture, rain, or neglected maintenance. Rust degrades mechanical performance, reducing manipulation and movement. Can be removed by repainting the android at a crafting spot or android assembly table.</ATPP_Rusted.description>
+
+  <!-- ==================== Neural Chips ==================== -->
+
+  <ATPP_HediffRXChip.label>RX Neural chip</ATPP_HediffRXChip.label>
+  <ATPP_HediffRXChip.labelNoun>RX Neural chip</ATPP_HediffRXChip.labelNoun>
+  <ATPP_HediffRXChip.description>A neural implant that acts as a personal SkyMind relay, allowing the host to connect to the SkyMind network without a nearby terminal.</ATPP_HediffRXChip.description>
+
+  <ATPP_HediffVX0Chip.label>VX0 Neural chip</ATPP_HediffVX0Chip.label>
+  <ATPP_HediffVX0Chip.labelNoun>VX0 Neural chip</ATPP_HediffVX0Chip.labelNoun>
+  <ATPP_HediffVX0Chip.description>A neural implant that converts the host into a biological surrogate, allowing a remote operator to take direct control of this body through the SkyMind network.</ATPP_HediffVX0Chip.description>
+
+  <ATPP_HediffVX1Chip.label>VX1 Neural Chip</ATPP_HediffVX1Chip.label>
+  <ATPP_HediffVX1Chip.labelNoun>VX1 Neural Chip</ATPP_HediffVX1Chip.labelNoun>
+  <ATPP_HediffVX1Chip.description>A neural implant allowing the host to remotely control surrogate android units through the SkyMind network.</ATPP_HediffVX1Chip.description>
+
+  <ATPP_HediffVX2Chip.label>VX2 Neural Chip</ATPP_HediffVX2Chip.label>
+  <ATPP_HediffVX2Chip.labelNoun>VX2 Neural Chip</ATPP_HediffVX2Chip.labelNoun>
+  <ATPP_HediffVX2Chip.description>An advanced neural implant allowing the host to remotely control surrogate androids and transfer or duplicate their consciousness through the SkyMind network.</ATPP_HediffVX2Chip.description>
+
+  <ATPP_HediffVX3Chip.label>VX3 Neural Chip</ATPP_HediffVX3Chip.label>
+  <ATPP_HediffVX3Chip.labelNoun>VX3 Neural Chip</ATPP_HediffVX3Chip.labelNoun>
+  <ATPP_HediffVX3Chip.description>A top-tier neural implant allowing the host to simultaneously control multiple surrogate androids and transfer or duplicate their consciousness through the SkyMind network.</ATPP_HediffVX3Chip.description>
+
+  <!-- ==================== Android Conditions ==================== -->
+
+  <AndroidOverheating.label>Overheating</AndroidOverheating.label>
+  <AndroidOverheating.description>The android's internal temperature has exceeded safe operating limits. Coolant systems are struggling to dissipate heat. Prolonged overheating risks permanent damage to internal components.</AndroidOverheating.description>
+
+  <AndroidFreezing.label>Freezing</AndroidFreezing.label>
+  <AndroidFreezing.description>The android's internal temperature has dropped below safe operating limits. Core systems are slowing down as components reach critically low temperatures.</AndroidFreezing.description>
+
+  <ShutdownAndroid.label>Decommissioned</ShutdownAndroid.label>
+  <ShutdownAndroid.description>AI core permanently shut down and wiped clean. This android is no longer operational.</ShutdownAndroid.description>
+
+  <RebootingSequenceAT.label>Rebooting</RebootingSequenceAT.label>
+  <RebootingSequenceAT.description>Rebooting sequence active in the AI core. All systems are temporarily offline while the android restarts.</RebootingSequenceAT.description>
+
+  <NoFreeWillAT.label>Unfeeling</NoFreeWillAT.label>
+  <NoFreeWillAT.description>Modifications to the morality and emotional response sectors of the AI core have resulted in a completely neutral mood and suppression of higher cognitive functions.</NoFreeWillAT.description>
+
+  <FreshReprogramming.label>Recently reprogrammed</FreshReprogramming.label>
+  <FreshReprogramming.description>The AI core has been recently reprogrammed. Compiling and auto-correcting new software may temporarily reduce performance.</FreshReprogramming.description>
+
+  <OverclockedAndroid.label>Overclocked</OverclockedAndroid.label>
+  <OverclockedAndroid.description>The processing sectors of this android's AI core have been accelerated, resulting in quicker computation but increased hardware load and heat generation.</OverclockedAndroid.description>
+
+  <BatteryChargeMech.label>Battery</BatteryChargeMech.label>
+  <BatteryChargeMech.description>Internal battery charge level. When depleted, the android will shut down until recharged at a recharge station or bed.</BatteryChargeMech.description>
+
+  <AndroidCoolantLoss.label>Coolant loss</AndroidCoolantLoss.label>
+  <AndroidCoolantLoss.description>Loss of coolant in internal piping, reducing cooling capacity and causing overheating of internal components. Should be treated before reaching critical levels.</AndroidCoolantLoss.description>
+
+  <!-- ==================== Age-related ==================== -->
+
+  <DecayedFrame.label>Decaying mainframe</DecayedFrame.label>
+  <DecayedFrame.labelNoun>A decaying mainframe</DecayedFrame.labelNoun>
+  <DecayedFrame.description>Years of operation have taken their toll on this android's core hardware. Critical components are degrading, reducing overall system performance.</DecayedFrame.description>
+
+  <CorruptMemory.label>Corrupt memory</CorruptMemory.label>
+  <CorruptMemory.description>Long-term data accumulation and wear have caused corruption in the android's memory banks, leading to reduced cognitive and skill performance.</CorruptMemory.description>
+
+  <WeakValves.label>Weak valves</WeakValves.label>
+  <WeakValves.description>Internal pressure valves have weakened with age, affecting coolant and fluid distribution throughout the android's systems.</WeakValves.description>
+
+  <ExaggeratedHealing.label>Hyperactive reaction</ExaggeratedHealing.label>
+  <ExaggeratedHealing.description>The android's self-repair nanites have become erratic with age, over-reacting to minor damage in ways that can cause more harm than good.</ExaggeratedHealing.description>
+
+  <FaultyPump.label>Faulty pump</FaultyPump.label>
+  <FaultyPump.labelNoun>A faulty pump</FaultyPump.labelNoun>
+  <FaultyPump.description>One or more internal fluid pumps have degraded, reducing the efficiency of coolant and lubricant circulation throughout the android's body.</FaultyPump.description>
+
+  <!-- ==================== Drugs ==================== -->
+
+  <SGelhuman.label>Structure gel (toxic)</SGelhuman.label>
+  <SGelhuman.description>An amino acid and mechanite mixture flowing through the bloodstream. Highly toxic to biological life — may cause seizures and respiratory distress.</SGelhuman.description>
+
+  <SGelandroid.label>Structure gel</SGelandroid.label>
+  <SGelandroid.description>An amino acid and mechanite mixture flowing through coolant piping, helping maintain internal components for better performance.</SGelandroid.description>
+
+  <Toxicated.label>Toxicated</Toxicated.label>
+  <Toxicated.description>Toxic compounds within the bloodstream causing difficulty breathing and vomiting. A side effect of consuming substances not designed for biological consumption.</Toxicated.description>
+
+  <AFreezeandroid.label>Polymer antifreeze</AFreezeandroid.label>
+  <AFreezeandroid.description>Polymer-based antifreeze circulating through coolant tubing, improving temperature regulation in both hot and cold environments.</AFreezeandroid.description>
+
+  <MechSwarmandroid.label>Mech swarm</MechSwarmandroid.label>
+  <MechSwarmandroid.description>Nano-mechanites flowing through coolant tubing, helping keep all internal components at peak performance.</MechSwarmandroid.description>
+
+  <FractalPillAndroid.label>Fractal Enhancement</FractalPillAndroid.label>
+  <FractalPillAndroid.description>Fractal compounds circulating through the android's systems, substantially improving the efficiency and power of all actions. Effects stack with each additional dose.</FractalPillAndroid.description>
+
+  <RegenAndroid.label>Mono-Salve</RegenAndroid.label>
+  <RegenAndroid.description>Active regenerative solvents circulating through coolant tubing, accelerating the auto-repair of mechanical components.</RegenAndroid.description>
+
+  <!-- ==================== Upgrades / Implants ==================== -->
+
+  <PlatingSteel.label>Steel frame</PlatingSteel.label>
+  <PlatingSteel.description>A basic steel frame installed on the android's chassis, providing modest protection and structural reinforcement.</PlatingSteel.description>
+
+  <PlatingPlasteel.label>Plasteel frame covering</PlatingPlasteel.label>
+  <PlatingPlasteel.description>A strong plasteel frame covering providing significant structural reinforcement and damage resistance.</PlatingPlasteel.description>
+
+  <PlatingComposite.label>Composite frame plating</PlatingComposite.label>
+  <PlatingComposite.description>High-tensile composite frame plating offering excellent protection and structural integrity.</PlatingComposite.description>
+
+  <HydraulicFrame.label>Hydraulic frame</HydraulicFrame.label>
+  <HydraulicFrame.description>A hydraulic-assisted frame that greatly amplifies physical strength and carrying capacity.</HydraulicFrame.description>
+
+  <HydraulicLeg.label>Hydraulic leg</HydraulicLeg.label>
+  <HydraulicLeg.description>A hydraulic-powered replacement leg providing enhanced movement speed and jump capability.</HydraulicLeg.description>
+
+  <HydraulicArm.label>Hydraulic arm</HydraulicArm.label>
+  <HydraulicArm.description>A hydraulic-powered replacement arm providing greatly enhanced manipulation and melee capability.</HydraulicArm.description>
+
+  <PositronMind.label>Positronic rewiring</PositronMind.label>
+  <PositronMind.description>Advanced positronic rewiring of the AI core's neural pathways, dramatically improving cognitive processing speed and output quality.</PositronMind.description>
+
+  <SoldierMind.label>Soldier upgrade</SoldierMind.label>
+  <SoldierMind.description>A combat-focused AI module that enhances targeting, tactical analysis, and weapons handling.</SoldierMind.description>
+
+  <BuilderMind.label>Blueprint banks</BuilderMind.label>
+  <BuilderMind.description>Extensive blueprint data banks loaded into the AI core, improving construction planning and execution efficiency.</BuilderMind.description>
+
+  <SurgeonMind.label>Implanted tricorder</SurgeonMind.label>
+  <SurgeonMind.description>A sophisticated medical analysis module that improves diagnosis accuracy and surgical precision.</SurgeonMind.description>
+
+  <OverclockedAndroid.labelNoun>An overclocking upgrade</OverclockedAndroid.labelNoun>
+
+  <EvolvingMind.label>Evolving AI</EvolvingMind.label>
+  <EvolvingMind.labelNoun>An evolving AI</EvolvingMind.labelNoun>
+  <EvolvingMind.description>A self-improving AI module that gradually enhances all skills and capabilities over time through continuous learning and adaptation.</EvolvingMind.description>
+
 </LanguageData>

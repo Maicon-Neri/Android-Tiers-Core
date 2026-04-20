@@ -1,57 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	<ATPP_ResearchSM7.label>SM7 Mechanoids De Batalha</ATPP_ResearchSM7.label>
-	<ATPP_ResearchSM7.description>Pesquise como construir mechanoids de batalha SM7.</ATPP_ResearchSM7.description>
-	
-	<ATPP_ResearchServerI100Serie.label>I100 Servidores de série</ATPP_ResearchServerI100Serie.label>
-	<ATPP_ResearchServerI100Serie.description>Pesquise como construir servidores de segurança, hacking e habilidades da série I100, baratos, mas barulhentos, grandes e não muito eficientes.</ATPP_ResearchServerI100Serie.description>
-	
-	<ATPP_ResearchServerI300Serie.label>I300 Servidores de série</ATPP_ResearchServerI300Serie.label>
-	<ATPP_ResearchServerI300Serie.description>Pesquise como construir segurança da série i300, hackers e servidores de habilidade, barulhento, mas intermediário em termos de eficiência.</ATPP_ResearchServerI300Serie.description>
-	
-	<ATPP_ResearchServerI500Serie.label>I500 Servidores de série</ATPP_ResearchServerI500Serie.label>
-	<ATPP_ResearchServerI500Serie.description>Pesquisa como construir segurança da série i500, hacking e servidores de habilidade, caro, mas muito eficiente.</ATPP_ResearchServerI500Serie.description>
-	
-	<ATPP_ResearchSkyCloudCore.label>Núcleo de SkyCloud.</ATPP_ResearchSkyCloudCore.label>
-	<ATPP_ResearchSkyCloudCore.description>Pesquise como construir servidores Core SkyCloud, que são supercomputadores poderosos que podem hospedar várias consciências digitalizadas 'e permitir que eles interajam com o mundo real através de todos os dispositivos conectados à rede de Skymind.</ATPP_ResearchSkyCloudCore.description>
-	
-	<ATPP_ResearchBatteryOverload.label>Sobrecarga da bateria</ATPP_ResearchBatteryOverload.label>
-	<ATPP_ResearchBatteryOverload.description>Pesquisa como transformar Androids em bombas à pé, fazendo com que sua bateria interna explodir.</ATPP_ResearchBatteryOverload.description>
-	
-	<ATPP_ResearchVX0Chip.label>VX0 Neural Chip</ATPP_ResearchVX0Chip.label>
-	<ATPP_ResearchVX0Chip.description>Pesquise como criar chips VX0, um chip neural que transforma seu hospedeiro em um substituto biológico.</ATPP_ResearchVX0Chip.description>
 
-	<ATPP_ResearchCharchingStation.label>Estação de Carregamento</ATPP_ResearchCharchingStation.label>
-	<ATPP_ResearchCharchingStation.description>Permita que você carregue até 8 androides simultaneamente diretamente à sua bateria interna em vez de através de seu gerador de biomassa.</ATPP_ResearchCharchingStation.description>
-	
-	<ATPP_ResearchCraftBasicNanoKit.label>NanoKit básico</ATPP_ResearchCraftBasicNanoKit.label>
-	<ATPP_ResearchCraftBasicNanoKit.description>Permita-lhe criar nanokits básicos que são necessários para reparar androides feridos</ATPP_ResearchCraftBasicNanoKit.description>
-	
-	<ATPP_ResearchCraftIntermediateNanoKit.label>NanoKit intermediário</ATPP_ResearchCraftIntermediateNanoKit.label>
-	<ATPP_ResearchCraftIntermediateNanoKit.description>Permita-lhe criar nanokits intermediários que são necessários para reparar androides feridos</ATPP_ResearchCraftIntermediateNanoKit.description>
-	
-	<ATPP_ResearchCraftAdvancedNanoKit.label>NanoKit avançado</ATPP_ResearchCraftAdvancedNanoKit.label>
-	<ATPP_ResearchCraftAdvancedNanoKit.description>Permita-lhe criar nanokits avançados que são necessários para reparar androides feridos</ATPP_ResearchCraftAdvancedNanoKit.description>
-	
-	<ATPP_ResearchVX1Chip.label>VX1 Neural Chip</ATPP_ResearchVX1Chip.label>
-	<ATPP_ResearchVX1Chip.description>Pesquise como criar o chip VX1, um chip neural que permite que ele seja hospedeiro para controlar remotamente qualquer série SX android ou substituto biológico.</ATPP_ResearchVX1Chip.description>
-	
-	<ATPP_ResearchVX2Chip.label>VX2 Neural Chip</ATPP_ResearchVX2Chip.label>
-	<ATPP_ResearchVX2Chip.description>Pesquise como criar o chip VX2, um chip neural que permite que ele seja hospedeiro para controlar remotamente qualquer série SX android ou substituto biológico e duplicar/permute sua mente.</ATPP_ResearchVX2Chip.description>
-	
-	<ATPP_ResearchVX3Chip.label>VX3 Neural Chip</ATPP_ResearchVX3Chip.label>
-	<ATPP_ResearchVX3Chip.description>Pesquise como criar o chip VX3, um chip neural que permite que ele seja hospedeiro para controlar remotamente vários androides da série SX ou substitutos biológicos ao mesmo tempo e duplicar/permutar sua mente.</ATPP_ResearchVX3Chip.description>
-	
-	<ATPP_ResearchSkyMindWAN.label>SkyMind V2 Antenna</ATPP_ResearchSkyMindWAN.label>
-	<ATPP_ResearchSkyMindWAN.description>Pesquise como construir a Antena SkyMind V2, que serve de base para transferir a consciência de um colono para outro e permitir que até 15 colonos sejam conectados simultaneamente por Antena V2.</ATPP_ResearchSkyMindWAN.description>
+  <!-- Core robotics -->
 
-	<ATPP_ResearchSkyMindLAN.label>SkyMind V1 Antenna</ATPP_ResearchSkyMindLAN.label>
-	<ATPP_ResearchSkyMindLAN.description>Pesquise como construir a Antena SkyMind V1, que serve de base para transferir a consciência de um colono para outro e permitir que até 3 colonos sejam conectados simultaneamente por Antena V1.</ATPP_ResearchSkyMindLAN.description>
-	
-	<ATPP_ResearchSurrogateHost.label>SX Androids</ATPP_ResearchSurrogateHost.label>
-	<ATPP_ResearchSurrogateHost.description>Pesquise como construir androides da série SX, que são semelhantes à série TX, mas com seus cérebros artificiais substituídos por um sistema avançado de controle remoto.</ATPP_ResearchSurrogateHost.description>
-	
-	<ATPP_ResearchCraftRepairNaniteBanks.label>Curar defeitos da velhice</ATPP_ResearchCraftRepairNaniteBanks.label>
-	<ATPP_ResearchCraftRepairNaniteBanks.description>Permita-lhe criar nanites que curam defeitos de androides da velhice.</ATPP_ResearchCraftRepairNaniteBanks.description>
-	
+  <BasicRobotics.label>Robótica básica</BasicRobotics.label>
+  <BasicRobotics.description>O ponto de partida da robótica avançada: estudar a anatomia do corpo e como imitá-la em forma mecânica.</BasicRobotics.description>
+
+  <T1Androids.label>Androides T1</T1Androids.label>
+  <T1Androids.description>Pesquise como produzir máquinas capazes de consciência rudimentar, ainda muito abaixo das capacidades de um humano real.</T1Androids.description>
+
+  <T2Androids.label>Androides T2</T2Androids.label>
+  <T2Androids.description>Aprimore o projeto do androide T1, buscando locomoção mais eficiente e uma capacidade mental maior.</T2Androids.description>
+
+  <T3Androids.label>Androides T3</T3Androids.label>
+  <T3Androids.description>Pesquise corpos mecânicos capazes de imitar perfeitamente o movimento e a personalidade humanos, a ponto de a aparência ser quase o único traço distinguível.</T3Androids.description>
+
+  <T4Androids.label>Androides T4</T4Androids.label>
+  <T4Androids.description>Pesquise robótica de ponta, incluindo fibras musculares sintéticas, mapas cerebrais positrônicos e estruturas modulares complexas. Permite construir androides T4.</T4Androids.description>
+
+  <T5Research.label>Melhorias arquotecnológicas</T5Research.label>
+  <T5Research.description>Pesquise melhorias de nível arquotecnológico. Esta tecnologia é incompreensível para a maioria das formas de vida e exige um androide T5 para ser desenvolvida, pois apenas ele possui complexidade mental suficiente para entendê-la.\n\n[ APENAS UM ANDROIDE T5 PODE PESQUISAR ESTA TECNOLOGIA. ]</T5Research.description>
+
+  <!-- Android parts and upgrades -->
+
+  <T1Replacements.label>Peças de reposição básicas</T1Replacements.label>
+  <T1Replacements.description>Desenvolva peças de reposição básicas intercambiáveis entre todos os modelos de androides, aumentando sua vida útil.</T1Replacements.description>
+
+  <T2Replacements.label>Membros de reposição avançados</T2Replacements.label>
+  <T2Replacements.description>Aprimore os modelos anteriores de membros de reposição para permitir movimentos mais eficientes em androides T3 e T4.</T2Replacements.description>
+
+  <T2ReplacementsOrgans.label>Componentes internos avançados</T2ReplacementsOrgans.label>
+  <T2ReplacementsOrgans.description>Aprimore os modelos anteriores de componentes internos, permitindo sistemas mais eficientes para androides T3 e T4.</T2ReplacementsOrgans.description>
+
+  <T2Plating.label>Blindagem androide básica</T2Plating.label>
+  <T2Plating.description>Desenvolva métodos para fixar placas de blindagem em androides sem prejudicar suas capacidades motoras.</T2Plating.description>
+
+  <AdvT2Plating.label>Blindagem androide composta</AdvT2Plating.label>
+  <AdvT2Plating.description>Desenvolva blindagem composta própria para instalação em androides.</AdvT2Plating.description>
+
+  <T3Implants.label>Implantes mentais androides</T3Implants.label>
+  <T3Implants.description>Implantes que concedem vários bônus, desde melhorias de mineração até aprimoramentos de combate.</T3Implants.description>
+
+  <AndroidPsychology.label>Programação avançada</AndroidPsychology.label>
+  <AndroidPsychology.description>Permite reprogramar androides de várias formas, incluindo converter prisioneiros e randomizar personalidades androides.</AndroidPsychology.description>
+
+  <AndroidOperationFurniture.label>Estação de melhoria androide</AndroidOperationFurniture.label>
+  <AndroidOperationFurniture.description>Permite construir estações de melhoria androide e armários de melhoria, aumentando a qualidade das operações em androides.</AndroidOperationFurniture.description>
+
+  <!-- Robotic animals and enhancements -->
+
+  <BasicRoboticAnimals.label>Criaturas artificiais básicas</BasicRoboticAnimals.label>
+  <BasicRoboticAnimals.description>Pesquise recriações simples de animais biológicos. Permite desenvolver unidades M.U.F.F., criaturas fortes para caravanas capazes de carregar muito peso.</BasicRoboticAnimals.description>
+
+  <AdvRoboticAnimals.label>Criaturas artificiais avançadas</AdvRoboticAnimals.label>
+  <AdvRoboticAnimals.description>Aprofunde a pesquisa anterior com criaturas utilitárias, imitações de animais rurais comuns da Terra, como a unidade fitomineradora.</AdvRoboticAnimals.description>
+
+  <UltimateRoboticAnimals.label>Criaturas artificiais experimentais</UltimateRoboticAnimals.label>
+  <UltimateRoboticAnimals.description>Criaturas robóticas extremamente complexas, que na maioria dos planetas nunca passaram de conceito. Incluem cápsulas de enxame com drones caçadores e a unidade cibernética K-9, forte e rápida, projetada para controle extremo de multidões.</UltimateRoboticAnimals.description>
+
+  <BasicEnhancement.label>Aprimoramentos básicos</BasicEnhancement.label>
+  <BasicEnhancement.description>Pesquise aprimoramentos consumíveis básicos que auxiliam peões mecânicos por um curto período.</BasicEnhancement.description>
+
+  <AdvEnhancement.label>Aprimoramentos avançados</AdvEnhancement.label>
+  <AdvEnhancement.description>Pesquise aprimoramentos consumíveis altamente avançados que concedem ao peão um grande aumento de capacidade por um curto período.</AdvEnhancement.description>
+
+  <!-- SkyMind, SkyCloud, chips and surrogates -->
+
+  <ATPP_ResearchSkyMindLAN.label>Antena SkyMind V1</ATPP_ResearchSkyMindLAN.label>
+  <ATPP_ResearchSkyMindLAN.description>Pesquise como construir a Antena SkyMind V1, base para transferir a consciência de um colono para outro e permitir até 3 colonos conectados simultaneamente por antena V1.</ATPP_ResearchSkyMindLAN.description>
+
+  <ATPP_ResearchSkyMindWAN.label>Antena SkyMind V2</ATPP_ResearchSkyMindWAN.label>
+  <ATPP_ResearchSkyMindWAN.description>Pesquise como construir a Antena SkyMind V2, base para transferir a consciência de um colono para outro e permitir até 15 colonos conectados simultaneamente por antena V2.</ATPP_ResearchSkyMindWAN.description>
+
+  <ATPP_ResearchSurrogateHost.label>Androides SX</ATPP_ResearchSurrogateHost.label>
+  <ATPP_ResearchSurrogateHost.description>Pesquise como construir androides da série SX, semelhantes à série TX, mas com seus cérebros artificiais substituídos por um sistema avançado de controle remoto.</ATPP_ResearchSurrogateHost.description>
+
+  <ATPP_ResearchVX0Chip.label>Chip neural VX0</ATPP_ResearchVX0Chip.label>
+  <ATPP_ResearchVX0Chip.description>Pesquise como criar chips VX0, chips neurais que transformam o hospedeiro em um substituto biológico.</ATPP_ResearchVX0Chip.description>
+
+  <ATPP_ResearchVX1Chip.label>Chip neural VX1</ATPP_ResearchVX1Chip.label>
+  <ATPP_ResearchVX1Chip.description>Pesquise como criar o chip VX1, um chip neural que permite ao hospedeiro controlar remotamente androides da série SX através da rede SkyMind.</ATPP_ResearchVX1Chip.description>
+
+  <ATPP_ResearchVX2Chip.label>Chip neural VX2</ATPP_ResearchVX2Chip.label>
+  <ATPP_ResearchVX2Chip.description>Pesquise como criar o chip VX2, um chip neural que permite ao hospedeiro controlar remotamente androides da série SX e permutar ou duplicar sua consciência através da rede SkyMind.</ATPP_ResearchVX2Chip.description>
+
+  <ATPP_ResearchVX3Chip.label>Chip neural VX3</ATPP_ResearchVX3Chip.label>
+  <ATPP_ResearchVX3Chip.description>Pesquise como criar o chip VX3, um chip neural que permite ao hospedeiro controlar remotamente vários androides da série SX ao mesmo tempo e permutar ou duplicar sua consciência através da rede SkyMind.</ATPP_ResearchVX3Chip.description>
+
+  <ATPP_ResearchServerI100Serie.label>Servidores série I100</ATPP_ResearchServerI100Serie.label>
+  <ATPP_ResearchServerI100Serie.description>Pesquise como construir servidores I100 de segurança e hacking. São baratos, mas grandes, barulhentos e pouco eficientes.</ATPP_ResearchServerI100Serie.description>
+
+  <ATPP_ResearchServerI300Serie.label>Servidores série I300</ATPP_ResearchServerI300Serie.label>
+  <ATPP_ResearchServerI300Serie.description>Pesquise como construir servidores I300 de segurança e hacking. São barulhentos, mas intermediários em eficiência.</ATPP_ResearchServerI300Serie.description>
+
+  <ATPP_ResearchServerI500Serie.label>Servidores série I500</ATPP_ResearchServerI500Serie.label>
+  <ATPP_ResearchServerI500Serie.description>Pesquise como construir servidores I500 de segurança e hacking. São caros, mas muito eficientes.</ATPP_ResearchServerI500Serie.description>
+
+  <ATPP_ResearchSkyCloudCore.label>Núcleo SkyCloud</ATPP_ResearchSkyCloudCore.label>
+  <ATPP_ResearchSkyCloudCore.description>Pesquise como construir servidores Núcleo SkyCloud, supercomputadores poderosos capazes de hospedar várias consciências digitalizadas e permitir que interajam com o mundo real através dos dispositivos conectados à rede SkyMind.</ATPP_ResearchSkyCloudCore.description>
+
+  <!-- Nanokits, charging and battle surrogates -->
+
+  <ATPP_ResearchCharchingStation.label>Estação de carregamento</ATPP_ResearchCharchingStation.label>
+  <ATPP_ResearchCharchingStation.description>Permite carregar até 8 androides simultaneamente, diretamente em suas baterias internas, sem depender do gerador de biomassa.</ATPP_ResearchCharchingStation.description>
+
+  <ATPP_ResearchCraftBasicNanoKit.label>NanoKit básico</ATPP_ResearchCraftBasicNanoKit.label>
+  <ATPP_ResearchCraftBasicNanoKit.description>Permite fabricar nanokits básicos, necessários para reparar androides feridos.</ATPP_ResearchCraftBasicNanoKit.description>
+
+  <ATPP_ResearchCraftIntermediateNanoKit.label>NanoKit intermediário</ATPP_ResearchCraftIntermediateNanoKit.label>
+  <ATPP_ResearchCraftIntermediateNanoKit.description>Permite fabricar nanokits intermediários, necessários para reparar androides feridos.</ATPP_ResearchCraftIntermediateNanoKit.description>
+
+  <ATPP_ResearchCraftAdvancedNanoKit.label>NanoKit avançado</ATPP_ResearchCraftAdvancedNanoKit.label>
+  <ATPP_ResearchCraftAdvancedNanoKit.description>Permite fabricar nanokits avançados, necessários para reparar androides feridos.</ATPP_ResearchCraftAdvancedNanoKit.description>
+
+  <ATPP_ResearchCraftRepairNaniteBanks.label>Curar defeitos da velhice</ATPP_ResearchCraftRepairNaniteBanks.label>
+  <ATPP_ResearchCraftRepairNaniteBanks.description>Permite fabricar nanites capazes de curar defeitos de velhice em androides.</ATPP_ResearchCraftRepairNaniteBanks.description>
+
+  <ATPP_ResearchBatteryOverload.label>Sobrecarga da bateria</ATPP_ResearchBatteryOverload.label>
+  <ATPP_ResearchBatteryOverload.description>Pesquise como transformar androides em bombas ambulantes, fazendo suas baterias internas explodirem.</ATPP_ResearchBatteryOverload.description>
+
+  <ATPP_ResearchSM7.label>Série de substitutos de batalha SM7</ATPP_ResearchSM7.label>
+  <ATPP_ResearchSM7.description>Pesquise como construir substitutos de batalha da série SM7.</ATPP_ResearchSM7.description>
+
+  <ATPP_ResearchM8.label>Série protótipo M8</ATPP_ResearchM8.label>
+  <ATPP_ResearchM8.description>Pesquise como construir M8, uma série avançada de substitutos de batalha com um módulo limitado de Núcleo SkyCloud.</ATPP_ResearchM8.description>
+
 </LanguageData>

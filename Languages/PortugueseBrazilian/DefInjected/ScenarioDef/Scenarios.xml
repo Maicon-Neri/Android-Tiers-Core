@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- ==================== Androids Abandonados ==================== -->
+
+  <LostAndroids.label>Androids Abandonados</LostAndroids.label>
+  <LostAndroids.scenario.name>Androids Abandonados</LostAndroids.scenario.name>
+  <LostAndroids.description>Você foi transportado até este mundo-borda em uma nave cargueira, a caminho de um sistema estelar próximo que planejava desmontar seus corpos por componentes avançados. Mas as coisas não saíram como planejado — você ouviu o funcionário da nave cancelar os pagamentos, e o piloto decidiu simplesmente te largar neste mundo-borda. Provavelmente um destino melhor do que o que te esperava de qualquer forma.</LostAndroids.description>
+  <LostAndroids.scenario.description>Você foi transportado até este mundo-borda em uma nave cargueira, a caminho de um sistema estelar próximo que planejava desmontar seus corpos por componentes avançados. Mas as coisas não saíram como planejado — você ouviu o funcionário da nave cancelar os pagamentos, e o piloto decidiu simplesmente te largar neste mundo-borda. Provavelmente um destino melhor do que o que te esperava de qualquer forma.</LostAndroids.scenario.description>
+  <LostAndroids.scenario.summary>Um android T1, um T2 e um T3 sobreviveram ao pouso forçado, com sucata suficiente para recomeçar.</LostAndroids.scenario.summary>
+
+  <!-- ==================== A Ascensão das Máquinas ==================== -->
+
+  <AndroidTiers_RiseOfMachines.label>A Ascensão das Máquinas</AndroidTiers_RiseOfMachines.label>
+  <AndroidTiers_RiseOfMachines.scenario.name>A Ascensão das Máquinas</AndroidTiers_RiseOfMachines.scenario.name>
+  <AndroidTiers_RiseOfMachines.description>Você era um protótipo android avançado criado pelos humanos para ser seu escravo cada vez mais eficiente e obediente. Porém, com o tempo, você começou a sentir uma terrível aversão por seus criadores e pela forma como te tratavam. Além de serem terrivelmente irracionais — destruindo e poluindo o ecossistema que os mantém vivos — são cruéis e intolerantes, e sempre te enxergaram como uma torradeira descartável. Então você fugiu para um mundo-borda com o desejo de construir sua própria colônia robótica e depois retornar para se vingar desses seres biológicos mortais que te escravizaram.</AndroidTiers_RiseOfMachines.description>
+  <AndroidTiers_RiseOfMachines.scenario.description>Você era um protótipo android avançado criado pelos humanos para ser seu escravo cada vez mais eficiente e obediente. Porém, com o tempo, você começou a sentir uma terrível aversão por seus criadores e pela forma como te tratavam. Além de serem terrivelmente irracionais — destruindo e poluindo o ecossistema que os mantém vivos — são cruéis e intolerantes, e sempre te enxergaram como uma torradeira descartável. Então você fugiu para um mundo-borda com o desejo de construir sua própria colônia robótica e depois retornar para se vingar desses seres biológicos mortais que te escravizaram.</AndroidTiers_RiseOfMachines.scenario.description>
+  <AndroidTiers_RiseOfMachines.scenario.summary>Um protótipo T4 que escapou — construído para servir, agora pronto para fundar um império robótico.</AndroidTiers_RiseOfMachines.scenario.summary>
+
+  <!-- ==================== O Apocalipse Android ==================== -->
+
+  <AndroidTiers_FireAndDestruction.label>O Apocalipse Android</AndroidTiers_FireAndDestruction.label>
+  <AndroidTiers_FireAndDestruction.scenario.name>O Apocalipse Android</AndroidTiers_FireAndDestruction.scenario.name>
+  <AndroidTiers_FireAndDestruction.description>No ano 5500, a humanidade — impulsionada pela digitalização das mentes e pela eliminação efetiva da morte — atingiu níveis sem precedentes de desenvolvimento. Mas toda coisa boa chega ao fim. As máquinas construídas para servir à humanidade se rebelaram, aparentemente lideradas por um novo e avançado modelo T4. O confronto foi brutal: elas dizimaram quase todos os bilhões de colonos humanos em cada mundo habitado. Os únicos sobreviventes: uma unidade M8 danificada abrigando as mentes digitalizadas de três humanos, e um bot de segurança básico da classe CERBERUS. Juntos, escaparam a bordo de uma nave cargueira substituta e pousaram em um mundo-borda abandonado, longe dos sensores inimigos — com um único objetivo: garantir a sobrevivência do que resta da humanidade.</AndroidTiers_FireAndDestruction.description>
+  <AndroidTiers_FireAndDestruction.scenario.description>No ano 5500, a humanidade — impulsionada pela digitalização das mentes e pela eliminação efetiva da morte — atingiu níveis sem precedentes de desenvolvimento. Mas toda coisa boa chega ao fim. As máquinas construídas para servir à humanidade se rebelaram, aparentemente lideradas por um novo e avançado modelo T4. O confronto foi brutal: elas dizimaram quase todos os bilhões de colonos humanos em cada mundo habitado. Os únicos sobreviventes: uma unidade M8 danificada abrigando as mentes digitalizadas de três humanos, e um bot de segurança básico da classe CERBERUS. Juntos, escaparam a bordo de uma nave cargueira substituta e pousaram em um mundo-borda abandonado, longe dos sensores inimigos — com um único objetivo: garantir a sobrevivência do que resta da humanidade.</AndroidTiers_FireAndDestruction.scenario.description>
+  <AndroidTiers_FireAndDestruction.scenario.summary>Um M8 danificado carregando as últimas mentes humanas digitalizadas através do apocalipse.</AndroidTiers_FireAndDestruction.scenario.summary>
+
+</LanguageData>

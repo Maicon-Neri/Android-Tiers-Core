@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>AndroidBackstory</defName>
+    <identifier>AndroidBackstory</identifier>
+    <title>Mechanical colonist</title>
+    <titleShort>Android</titleShort>
+    <description>{PAWN_nameDef} is a sentient machine that is capable of displaying higher intelligence, newly birthed from their construction pod. What they make of their life is now up to them.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>AndroidTiers</li>
+      <li>TranscendantBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>1</Shooting>
+      <Melee>1</Melee>
+      <Construction>1</Construction>
+      <Mining>1</Mining>
+      <Cooking>1</Cooking>
+      <Plants>1</Plants>
+      <Animals>1</Animals>
+      <Crafting>1</Crafting>
+      <Artistic>1</Artistic>
+      <Medicine>1</Medicine>
+      <Social>1</Social>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Transcendant_Assimilator</defName>
+    <identifier>Transcendant_Assimilator</identifier>
+    <title>Archotech assimilator</title>
+    <titleShort>Assimilator</titleShort>
+    <description>Exiled from their archotech home world for crimes unimaginable, {PAWN_nameDef} is single handedly responsible for the extinction of multiple sentient races. Exile will not stop them, their insatiable urge to kill only grows stronger with every waking moment.</description>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>TranscendantBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Melee>8</Melee>
+      <Shooting>6</Shooting>
+      <Animals>-2</Animals>
+    </skillGains>
+    <workDisables>Cooking, Animals, Caring, Social, Mining, ManualSkilled, Intellectual</workDisables>
+    <forcedTraits>
+      <Intolerance>0</Intolerance>
+    </forcedTraits>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Transcendant_Firegiver</defName>
+    <identifier>Transcendant_Firegiver</identifier>
+    <title>Archotech philanthropist</title>
+    <titleShort>Philanthropist</titleShort>
+    <description>Exiled from their archotech home world for giving mankind technology beyond their wildest imaginations, {PAWN_nameDef} scattered archotech technology throughout the galaxy millenia ago in hopes of advancing civilisations.</description>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>TranscendantBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Medicine>4</Medicine>
+      <Crafting>4</Crafting>
+      <Intellectual>6</Intellectual>
+      <Melee>-5</Melee>
+      <Shooting>-5</Shooting>
+    </skillGains>
+    <workDisables>Cooking, Animals, Mining, PlantWork</workDisables>
+    <forcedTraits>
+      <Intolerance>0</Intolerance>
+    </forcedTraits>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Transcendant_Saviour</defName>
+    <identifier>Transcendant_Saviour</identifier>
+    <title>Archotech saviour</title>
+    <titleShort>Saviour</titleShort>
+    <description>For the crime of interfering with outside life, {PAWN_nameDef} was exiled from their archotech homeworld. {PAWN_nameDef} once held god-like status in several systems for saving civilisations from world ending events. They rule with an iron fist and smite down any who oppose them.</description>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>TranscendantBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Construction>3</Construction>
+      <Plants>3</Plants>
+    </skillGains>
+    <workDisables>Cooking, Intellectual, Artistic, ManualDumb, Social</workDisables>
+    <forcedTraits>
+      <Intolerance>0</Intolerance>
+    </forcedTraits>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Transcendant_Highcouncil</defName>
+    <identifier>Transcendant_Highcouncil</identifier>
+    <title>Archotech councillor</title>
+    <titleShort>Councillor</titleShort>
+    <description>Overthrown by their comrades, {PAWN_nameDef} assumed the second highest role in the archotech high council for their homeworld. Their judgement methods were often seen as illogical or authoritarian by many on their home.</description>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>TranscendantBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>8</Social>
+      <Artistic>3</Artistic>
+      <Crafting>-5</Crafting>
+      <Construction>-5</Construction>
+      <Melee>-2</Melee>
+      <Shooting>-2</Shooting>
+    </skillGains>
+    <workDisables>Cooking, Mining, Animals, PlantWork, Intellectual</workDisables>
+    <forcedTraits>
+      <Intolerance>0</Intolerance>
+    </forcedTraits>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>T5Backstory</defName>
+    <identifier>T5Backstory</identifier>
+    <title>Archotech luddite</title>
+    <titleShort>Luddite</titleShort>
+    <description>For the crime of disobeying their own kind, {PAWN_nameDef} was exiled from their archotech homeworld. {PAWN_nameDef} would misguide sapient life out of spite or simply for entertainment.</description>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>TranscendantBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Artistic>3</Artistic>
+      <Intellectual>5</Intellectual>
+      <Melee>-2</Melee>
+      <Shooting>-2</Shooting>
+    </skillGains>
+    <workDisables>Mining, Animals, PlantWork, Social</workDisables>
+    <forcedTraits>
+      <Intolerance>0</Intolerance>
+    </forcedTraits>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Transcendant_Designer</defName>
+    <identifier>Transcendant_Designer</identifier>
+    <title>Archotech designer</title>
+    <titleShort>Designer</titleShort>
+    <description>Exiled from their archotech homeworld for creating new life, strictly forbidden by law amongst archotechs. {PAWN_nameDef} disobeyed this rule several times, creating new life all across the galaxy for millenia to only serve {PAWN_nameDef} as their god.</description>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>TranscendantBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <Artistic>4</Artistic>
+      <Intellectual>1</Intellectual>
+      <Animals>3</Animals>
+      <Plants>2</Plants>
+      <Shooting>-2</Shooting>
+    </skillGains>
+    <workDisables>Mining, Social, Cooking, ManualDumb</workDisables>
+    <forcedTraits>
+      <Intolerance>0</Intolerance>
+    </forcedTraits>
+  </BackstoryDef>
+</Defs>

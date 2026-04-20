@@ -45,7 +45,28 @@
 	<ATPP_AndroidPodMech.label>M7 Pod</ATPP_AndroidPodMech.label>
 	<ATPP_AndroidPodMech.description>A giant pod where M7 mechanoids can be repaired, stored whilst waiting for a host (case of surrogates) and charged if connected to power.</ATPP_AndroidPodMech.description>
 	
-	<ATPP_SkyCloudCore.label>SkyCloud Core</ATPP_SkyCloudCore.label>
-	<ATPP_SkyCloudCore.description>A supercomputer allowing control of all devices connected to the SkyMind network as well as uploading digitalized brains of your colonists to its memory in order to make them almost immortal and omniscient</ATPP_SkyCloudCore.description>
-	
+  <ATPP_SkyCloudCore.label>SkyCloud Core</ATPP_SkyCloudCore.label>
+  <ATPP_SkyCloudCore.description>A supercomputer allowing control of all devices connected to the SkyMind network as well as uploading digitalized brains of your colonists to its memory in order to make them almost immortal and omniscient.</ATPP_SkyCloudCore.description>
+
+  <!-- ==================== Furniture ==================== -->
+
+  <AndroidOperationBed.label>android upgrade station</AndroidOperationBed.label>
+  <AndroidOperationBed.description>A specialized table equipped with all the tools needed to perform android upgrades and other operations, along with two displays showing vital information about the android to the mechanic.</AndroidOperationBed.description>
+
+  <AndroidOperationKit.label>upgrade cabinet</AndroidOperationKit.label>
+  <AndroidOperationKit.description>A small cabinet used alongside the android upgrade station or bed. Contains very precise, small-scale tools for the most delicate of android procedures.</AndroidOperationKit.description>
+
+  <!-- ==================== Production ==================== -->
+
+  <UnfinishedAndroid.label>unfinished android</UnfinishedAndroid.label>
+
+  <AndroidProductionVat.label>robotics production casket</AndroidProductionVat.label>
+  <AndroidProductionVat.description>A production casket that manufactures androids and android parts when supplied with materials and moderate human involvement.</AndroidProductionVat.description>
+
+  <AndroidOtherStuffTable.label>android implants workbench</AndroidOtherStuffTable.label>
+  <AndroidOtherStuffTable.description>A workbench containing everything needed to create highly sophisticated implant chips and various chemical mixtures for android enhancement.</AndroidOtherStuffTable.description>
+
+  <AndroidPartsTable.label>android parts workbench</AndroidPartsTable.label>
+  <AndroidPartsTable.description>A workbench equipped to manufacture a wide variety of android replacement parts and components.</AndroidPartsTable.description>
+
 </LanguageData>

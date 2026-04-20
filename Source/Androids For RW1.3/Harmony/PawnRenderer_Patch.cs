@@ -69,10 +69,10 @@ namespace MOARANDROIDS
 
                     if (state)
                     {
-                        /*if (flagPortrait)
+                        if (flagPortrait)
                             Log.Message("Refresh hair for " + ___pawn.LabelCap + " (PORTRAIT)");
                         else
-                            Log.Message("Refresh hair for " + ___pawn.LabelCap + " (NO_PORTRAIT)");*/
+                            Log.Message("Refresh hair for " + ___pawn.LabelCap + " (NO_PORTRAIT)");
 
                         Quaternion quaternion = Quaternion.AngleAxis(angle, Vector3.up);
                         Vector3 a = rootLoc;

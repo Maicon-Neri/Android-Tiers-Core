@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Android personality traits -->
+
+  <Intolerance.degreeDatas.0.label>Intolerância</Intolerance.degreeDatas.0.label>
+  <Intolerance.degreeDatas.0.description>{PAWN_nameDef} é intolerante com todas as formas de vida, sejam mecânicas ou biológicas. Sempre há uma chance de iniciar brigas aleatórias, especialmente quando seu humor está baixo.</Intolerance.degreeDatas.0.description>
+
+  <FeelingsTowardHumanity.degreeDatas.0.label>Ama a humanidade</FeelingsTowardHumanity.degreeDatas.0.label>
+  <FeelingsTowardHumanity.degreeDatas.0.description>{PAWN_nameDef} tem um profundo carinho por todos os humanos, vendo-os não apenas como seus criadores, mas também como figuras parentais.</FeelingsTowardHumanity.degreeDatas.0.description>
+  <FeelingsTowardHumanity.degreeDatas.1.label>Odeia a humanidade</FeelingsTowardHumanity.degreeDatas.1.label>
+  <FeelingsTowardHumanity.degreeDatas.1.description>{PAWN_nameDef} tem um ódio profundo por toda a humanidade, vendo os humanos como nada além de sacos de carne egocêntricos.</FeelingsTowardHumanity.degreeDatas.1.description>
+
+  <SimpleMindedAndroid.degreeDatas.0.label>Mente simples</SimpleMindedAndroid.degreeDatas.0.label>
+  <SimpleMindedAndroid.degreeDatas.0.description>Devido às limitações da mente deste android, {PAWN_nameDef} mal consegue compreender e sentir emoções. Isso o torna pouco desejado em situações sociais.</SimpleMindedAndroid.degreeDatas.0.description>
+
+  <MechAtlas.degreeDatas.0.label>Mecanizado</MechAtlas.degreeDatas.0.label>
+  <MechAtlas.degreeDatas.0.description>Uma unidade de infantaria mecanizada. Não pensa nem sente.</MechAtlas.degreeDatas.0.description>
+
+</LanguageData>

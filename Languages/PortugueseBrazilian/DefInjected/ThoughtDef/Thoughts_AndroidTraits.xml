@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Thoughts attached to Android Tiers traits -->
+
+  <MoodOffsetT5.stages.0.label>Intolerante</MoodOffsetT5.stages.0.label>
+  <MoodOffsetT5.stages.0.description>Tenho que trabalhar perto dessas formas inferiores, em um mundo-borda. Isto é um pesadelo.</MoodOffsetT5.stages.0.description>
+
+  <FeelingsTowardHumanityAT.stages.0.label>ama humanos</FeelingsTowardHumanityAT.stages.0.label>
+  <FeelingsTowardHumanityAT.stages.1.label>saco de carne imundo</FeelingsTowardHumanityAT.stages.1.label>
+
+  <MoodOffsetSimpleMindedAndroid.stages.0.label>Mente simples</MoodOffsetSimpleMindedAndroid.stages.0.label>
+  <MoodOffsetSimpleMindedAndroid.stages.0.description>Não consigo sentir emoções plenamente.</MoodOffsetSimpleMindedAndroid.stages.0.description>
+
+  <MoodOffsetMech.stages.0.label>Insensível</MoodOffsetMech.stages.0.label>
+  <MoodOffsetMech.stages.0.description>Esta infantaria mecanizada não sente emoções.</MoodOffsetMech.stages.0.description>
+
+</LanguageData>

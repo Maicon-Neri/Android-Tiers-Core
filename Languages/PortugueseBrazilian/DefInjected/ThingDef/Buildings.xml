@@ -45,7 +45,28 @@
 	<ATPP_AndroidPodMech.label>M7 Pod</ATPP_AndroidPodMech.label>
 	<ATPP_AndroidPodMech.description>Uma cápsula gigante onde os mecanóides M7 podem ser reparados, armazenados enquanto se espera por um hospedeiro (caso de substitutos) e carregados se ligados à energia.</ATPP_AndroidPodMech.description>
 	
-	<ATPP_SkyCloudCore.label>Núcleo SkyCloud</ATPP_SkyCloudCore.label>
-	<ATPP_SkyCloudCore.description>Um supercomputador que permite o controlo de todos os dispositivos ligados à rede SkyMind, bem como enviar cérebros digitalizados dos seus colonos para a sua memória, a fim de torná-los quase imortais e omniscientes</ATPP_SkyCloudCore.description>
-	
+  <ATPP_SkyCloudCore.label>Núcleo SkyCloud</ATPP_SkyCloudCore.label>
+  <ATPP_SkyCloudCore.description>Um supercomputador que permite o controle de todos os dispositivos conectados à rede SkyMind, além de enviar os cérebros digitalizados dos seus colonos para sua memória, tornando-os quase imortais e oniscientes.</ATPP_SkyCloudCore.description>
+
+  <!-- ==================== Móveis ==================== -->
+
+  <AndroidOperationBed.label>estação de melhoria android</AndroidOperationBed.label>
+  <AndroidOperationBed.description>Uma mesa especializada equipada com todas as ferramentas necessárias para realizar melhorias e outras operações em androids, com dois monitores que exibem informações vitais sobre o android ao mecânico.</AndroidOperationBed.description>
+
+  <AndroidOperationKit.label>armário de equipamentos</AndroidOperationKit.label>
+  <AndroidOperationKit.description>Um pequeno armário usado ao lado da estação de melhoria android ou da cama. Contém ferramentas pequenas e muito precisas para os procedimentos mais delicados em androids.</AndroidOperationKit.description>
+
+  <!-- ==================== Produção ==================== -->
+
+  <UnfinishedAndroid.label>android inacabado</UnfinishedAndroid.label>
+
+  <AndroidProductionVat.label>câmara de produção robótica</AndroidProductionVat.label>
+  <AndroidProductionVat.description>Uma câmara de produção que fabrica androids e peças android quando abastecida com materiais e supervisão humana moderada.</AndroidProductionVat.description>
+
+  <AndroidOtherStuffTable.label>bancada de implantes android</AndroidOtherStuffTable.label>
+  <AndroidOtherStuffTable.description>Uma bancada que contém tudo o necessário para criar chips de implantes altamente sofisticados e diversas misturas químicas para aprimoramento de androids.</AndroidOtherStuffTable.description>
+
+  <AndroidPartsTable.label>bancada de peças android</AndroidPartsTable.label>
+  <AndroidPartsTable.description>Uma bancada equipada para fabricar uma grande variedade de peças de reposição e componentes para androids.</AndroidPartsTable.description>
+
 </LanguageData>

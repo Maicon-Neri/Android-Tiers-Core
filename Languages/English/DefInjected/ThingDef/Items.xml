@@ -1,55 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<ATPP_NanitesHydraulicSerum.label>Nanites Bank (Hydraulic)</ATPP_NanitesHydraulicSerum.label>
-	<ATPP_NanitesHydraulicSerum.description>A one-use bank of nanites tuned to repair broken android hydraulic systems (related to old age).</ATPP_NanitesHydraulicSerum.description>
-	<ATPP_NanitesHydraulicSerum.comps.CompUsable.useLabel>Use this nanite serum to fix android age issues</ATPP_NanitesHydraulicSerum.comps.CompUsable.useLabel>
-	
-	<ATPP_NanitesCPUSerum.label>Nanites Bank (CPU)</ATPP_NanitesCPUSerum.label>
-	<ATPP_NanitesCPUSerum.description>A one-use bank of nanites tuned to repair broken android artificial brain systems (related to old age).</ATPP_NanitesCPUSerum.description>
-	<ATPP_NanitesCPUSerum.comps.CompUsable.useLabel>Use this nanite serum to fix android age issues</ATPP_NanitesCPUSerum.comps.CompUsable.useLabel>
-	
-	<ATPP_NanitesCoolingSerum.label>Nanites Bank (Cooling)</ATPP_NanitesCoolingSerum.label>
-	<ATPP_NanitesCoolingSerum.description>A one-use bank of nanites tuned to repair broken android cooling systems in case of overheating (related to old age).</ATPP_NanitesCoolingSerum.description>
-	<ATPP_NanitesCoolingSerum.comps.CompUsable.useLabel>Use this nanite serum to fix android age issues</ATPP_NanitesCoolingSerum.comps.CompUsable.useLabel>
-	
-	<ATPP_NanitesFrameSerum.label>Nanites Bank (Framework)</ATPP_NanitesFrameSerum.label>
-	<ATPP_NanitesFrameSerum.description>A one-use bank of nanites tuned to repair broken android exoskeletons (related to old age).</ATPP_NanitesFrameSerum.description>
-	<ATPP_NanitesFrameSerum.comps.CompUsable.useLabel>Use this nanite serum to fix android age issues</ATPP_NanitesFrameSerum.comps.CompUsable.useLabel>
+  <!-- ==================== Nanite Serums ==================== -->
 
-	<ATPP_AndroidNanokitBasic.label>Basic Nanokit</ATPP_AndroidNanokitBasic.label>
-	<ATPP_AndroidNanokitBasic.description>A kit containing nanobots to treat the wounds of androids</ATPP_AndroidNanokitBasic.description>
-	
-	<ATPP_AndroidNanokitIntermediate.label>Intermediate Nanokit</ATPP_AndroidNanokitIntermediate.label>
-	<ATPP_AndroidNanokitIntermediate.description>A kit containing nanobots to treat the wounds of androids</ATPP_AndroidNanokitIntermediate.description>
-	
-	<ATPP_AndroidNanokitAdvanced.label>Advanced Nanokit</ATPP_AndroidNanokitAdvanced.label>
-	<ATPP_AndroidNanokitAdvanced.description>A kit containing nanobots to treat the wounds of androids</ATPP_AndroidNanokitAdvanced.description>
-	
-	<ATPP_RXChip.label>RX Neural Chip</ATPP_RXChip.label>
-	<ATPP_RXChip.description>A neural chip acting as a personal SkyMind relay.</ATPP_RXChip.description>
-	
-	<ATPP_VX0Chip.label>VX0 Neural Chip</ATPP_VX0Chip.label>
-	<ATPP_VX0Chip.description>A neural chip which transforms its host into a biological surrogate.</ATPP_VX0Chip.description>
-	
-	<ATPP_VX1Chip.label>VX1 Neural Chip</ATPP_VX1Chip.label>
-	<ATPP_VX1Chip.description>A neural chip allowing its host to remotely control any SX series android or biological surrogate.</ATPP_VX1Chip.description>
-	
-	<ATPP_VX2Chip.label>VX2 Neural Chip</ATPP_VX2Chip.label>
-	<ATPP_VX2Chip.description>A neural chip allowing its host to remotely control any SX series android or biological surrogate and permute/duplicate their mind.</ATPP_VX2Chip.description>
-	
-	<ATPP_VX3Chip.label>VX3 Neural Chip</ATPP_VX3Chip.label>
-	<ATPP_VX3Chip.description>A neural chip allowing its host to remotely control mulitple SX series androids or biological surrogates at the same time and permute/duplicate their mind.</ATPP_VX3Chip.description>
-	
-	<ATPP_T1ArtificialBrain.label>Artificial Brain T1</ATPP_T1ArtificialBrain.label>
-	<ATPP_T1ArtificialBrain.description>An artificial T1 brain, allowing to transform a T1 surrogate into a blank neural network android</ATPP_T1ArtificialBrain.description>
-	
-	<ATPP_T2ArtificialBrain.label>Artificial Brain T2</ATPP_T2ArtificialBrain.label>
-	<ATPP_T2ArtificialBrain.description>An artificial T2 brain, allowing to transform a T2 surrogate into a blank neural network android</ATPP_T2ArtificialBrain.description>
-	
-	<ATPP_T3ArtificialBrain.label>Artificial Brain T3</ATPP_T3ArtificialBrain.label>
-	<ATPP_T3ArtificialBrain.description>An artificial T3 brain, allowing to transform a T3 surrogate into a blank neural network android</ATPP_T3ArtificialBrain.description>
-	
-	<ATPP_T4ArtificialBrain.label>Artificial Brain T4</ATPP_T4ArtificialBrain.label>
-	<ATPP_T4ArtificialBrain.description>An artificial T4 brain, allowing to transform a T4 surrogate into a blank neural network android</ATPP_T4ArtificialBrain.description>
+  <ATPP_NanitesHydraulicSerum.label>Nanites Bank (Hydraulic)</ATPP_NanitesHydraulicSerum.label>
+  <ATPP_NanitesHydraulicSerum.description>A one-use bank of nanites tuned to repair broken android hydraulic systems (related to old age).</ATPP_NanitesHydraulicSerum.description>
+  <ATPP_NanitesHydraulicSerum.comps.CompUsable.useLabel>Use this nanite serum to fix android age issues</ATPP_NanitesHydraulicSerum.comps.CompUsable.useLabel>
+
+  <ATPP_NanitesCPUSerum.label>Nanites Bank (CPU)</ATPP_NanitesCPUSerum.label>
+  <ATPP_NanitesCPUSerum.description>A one-use bank of nanites tuned to repair broken android artificial brain systems (related to old age).</ATPP_NanitesCPUSerum.description>
+  <ATPP_NanitesCPUSerum.comps.CompUsable.useLabel>Use this nanite serum to fix android age issues</ATPP_NanitesCPUSerum.comps.CompUsable.useLabel>
+
+  <ATPP_NanitesCoolingSerum.label>Nanites Bank (Cooling)</ATPP_NanitesCoolingSerum.label>
+  <ATPP_NanitesCoolingSerum.description>A one-use bank of nanites tuned to repair broken android cooling systems in case of overheating (related to old age).</ATPP_NanitesCoolingSerum.description>
+  <ATPP_NanitesCoolingSerum.comps.CompUsable.useLabel>Use this nanite serum to fix android age issues</ATPP_NanitesCoolingSerum.comps.CompUsable.useLabel>
+
+  <ATPP_NanitesFrameSerum.label>Nanites Bank (Framework)</ATPP_NanitesFrameSerum.label>
+  <ATPP_NanitesFrameSerum.description>A one-use bank of nanites tuned to repair broken android exoskeletons (related to old age).</ATPP_NanitesFrameSerum.description>
+  <ATPP_NanitesFrameSerum.comps.CompUsable.useLabel>Use this nanite serum to fix android age issues</ATPP_NanitesFrameSerum.comps.CompUsable.useLabel>
+
+  <!-- ==================== Nanokits ==================== -->
+
+  <ATPP_AndroidNanokitBasic.label>Basic Nanokit</ATPP_AndroidNanokitBasic.label>
+  <ATPP_AndroidNanokitBasic.description>A kit containing nanobots to treat the wounds of androids.</ATPP_AndroidNanokitBasic.description>
+
+  <ATPP_AndroidNanokitIntermediate.label>Intermediate Nanokit</ATPP_AndroidNanokitIntermediate.label>
+  <ATPP_AndroidNanokitIntermediate.description>A kit containing nanobots to treat the wounds of androids.</ATPP_AndroidNanokitIntermediate.description>
+
+  <ATPP_AndroidNanokitAdvanced.label>Advanced Nanokit</ATPP_AndroidNanokitAdvanced.label>
+  <ATPP_AndroidNanokitAdvanced.description>A kit containing nanobots to treat the wounds of androids.</ATPP_AndroidNanokitAdvanced.description>
+
+  <!-- ==================== Neural Chips ==================== -->
+
+  <ATPP_RXChip.label>RX Neural Chip</ATPP_RXChip.label>
+  <ATPP_RXChip.description>A neural chip acting as a personal SkyMind relay, allowing the host to connect to the SkyMind network without a nearby terminal.</ATPP_RXChip.description>
+
+  <ATPP_VX0Chip.label>VX0 Neural Chip</ATPP_VX0Chip.label>
+  <ATPP_VX0Chip.description>A neural chip which transforms its host into a biological surrogate, allowing a remote operator to take direct control through the SkyMind network.</ATPP_VX0Chip.description>
+
+  <ATPP_VX1Chip.label>VX1 Neural Chip</ATPP_VX1Chip.label>
+  <ATPP_VX1Chip.description>A neural chip allowing its host to remotely control any SX series android or biological surrogate through the SkyMind network.</ATPP_VX1Chip.description>
+
+  <ATPP_VX2Chip.label>VX2 Neural Chip</ATPP_VX2Chip.label>
+  <ATPP_VX2Chip.description>A neural chip allowing its host to remotely control any SX series android or biological surrogate and transfer or duplicate their consciousness through the SkyMind network.</ATPP_VX2Chip.description>
+
+  <ATPP_VX3Chip.label>VX3 Neural Chip</ATPP_VX3Chip.label>
+  <ATPP_VX3Chip.description>A neural chip allowing its host to simultaneously control multiple SX series androids or biological surrogates and transfer or duplicate their consciousness through the SkyMind network.</ATPP_VX3Chip.description>
+
+  <!-- ==================== Artificial Brains ==================== -->
+
+  <ATPP_T1ArtificialBrain.label>Artificial Brain T1</ATPP_T1ArtificialBrain.label>
+  <ATPP_T1ArtificialBrain.description>An artificial T1 brain, allowing a T1 surrogate to be transformed into a blank neural network android.</ATPP_T1ArtificialBrain.description>
+
+  <ATPP_T2ArtificialBrain.label>Artificial Brain T2</ATPP_T2ArtificialBrain.label>
+  <ATPP_T2ArtificialBrain.description>An artificial T2 brain, allowing a T2 surrogate to be transformed into a blank neural network android.</ATPP_T2ArtificialBrain.description>
+
+  <ATPP_T3ArtificialBrain.label>Artificial Brain T3</ATPP_T3ArtificialBrain.label>
+  <ATPP_T3ArtificialBrain.description>An artificial T3 brain, allowing a T3 surrogate to be transformed into a blank neural network android.</ATPP_T3ArtificialBrain.description>
+
+  <ATPP_T4ArtificialBrain.label>Artificial Brain T4</ATPP_T4ArtificialBrain.label>
+  <ATPP_T4ArtificialBrain.description>An artificial T4 brain, allowing a T4 surrogate to be transformed into a blank neural network android.</ATPP_T4ArtificialBrain.description>
+
+  <!-- ==================== Body Parts - Armor ==================== -->
+
+  <SteelPlating.label>steel framing</SteelPlating.label>
+  <SteelPlating.description>A simple steel frame reinforcement for androids, providing modest structural protection against damage. Can be installed on T1–T5 Androids, K9 Unit, and M.U.F.F Unit.</SteelPlating.description>
+
+  <PlasteelPlating.label>plasteel frame coverings</PlasteelPlating.label>
+  <PlasteelPlating.description>Plasteel coverings installed over structural weak points on the android's frame, substantially increasing damage resistance. Can be installed on T2–T5 Androids, K9 Unit, and M.U.F.F Unit.</PlasteelPlating.description>
+
+  <CompositePlating.label>composite frame plating</CompositePlating.label>
+  <CompositePlating.description>High-tensile composite frame plating offering excellent structural protection. Can be installed on T3–T5 Androids, K9 Unit, and M.U.F.F Unit.</CompositePlating.description>
+
+  <!-- ==================== Body Parts - Utility ==================== -->
+
+  <HydraulicFrame.label>hydraulic frame</HydraulicFrame.label>
+  <HydraulicFrame.description>Enhances the android's framework using high-power hydraulic pumps, increasing carrying capacity. Movement is somewhat restricted due to the additional bulk. Can be installed on T1–T5 Androids, K9 Unit, and M.U.F.F Unit.</HydraulicFrame.description>
+
+  <HydraulicLeg.label>hydraulic leg</HydraulicLeg.label>
+  <HydraulicLeg.description>A tough hydraulic leg replacement that increases carrying capacity at the expense of agility. Can be installed on T1–T5 Androids, K9 Unit, and M.U.F.F Unit.</HydraulicLeg.description>
+
+  <HydraulicArm.label>hydraulic arm</HydraulicArm.label>
+  <HydraulicArm.description>A tough hydraulic arm replacement that increases carrying capacity and melee strength at the expense of agility. Can be installed on T1–T5 Androids.</HydraulicArm.description>
+
+  <MiningArm_AT.label>mining arm</MiningArm_AT.label>
+  <MiningArm_AT.description>A large plasteel-tipped drill arm used widely during the asteroid rush of the 22nd century. Excellent for mining but unsuitable for delicate work. Can be installed on T2–T5 Androids.</MiningArm_AT.description>
+
+  <!-- ==================== Body Parts - Basic ==================== -->
+
+  <BasicReplacementArm.label>basic replacement arm</BasicReplacementArm.label>
+  <BasicReplacementArm.description>A mass-produced replacement arm, standard issue for large android armies on warring planets. Can be installed on T1–T5 Androids.</BasicReplacementArm.description>
+
+  <BasicReplacementLeg.label>basic replacement leg</BasicReplacementLeg.label>
+  <BasicReplacementLeg.description>A mass-produced replacement leg, standard issue for large android armies on warring planets. Can be installed on T1–T5 Androids, K9 Unit, and M.U.F.F Unit.</BasicReplacementLeg.description>
+
+  <CrudeHeatsink.label>crude heatsink</CrudeHeatsink.label>
+  <CrudeHeatsink.description>A very basic heatsink made from scrap metal roughly arranged into a heat-dissipating array. Can be installed on T1–T5 Androids, K9 Unit, and M.U.F.F Unit.</CrudeHeatsink.description>
+
+  <LightReceivingDiode.label>crude light sensor</LightReceivingDiode.label>
+  <LightReceivingDiode.description>A basic light detection diode that functions as a simple on/off switch based on ambient light. Can be installed on T1–T5 Androids.</LightReceivingDiode.description>
+
+  <FlimsyCoolantPump.label>crude coolant pump</FlimsyCoolantPump.label>
+  <FlimsyCoolantPump.description>A flimsy differential-pressure coolant pump that barely maintains adequate coolant flow. Can be installed on T1–T5 Androids, K9 Unit, and M.U.F.F Unit.</FlimsyCoolantPump.description>
+
+  <SmallBatteryPack.label>crude battery pack</SmallBatteryPack.label>
+  <SmallBatteryPack.description>An array of small batteries lined up end-to-end for maximum voltage — which is still not very much. Can be installed on T1–T5 Androids, K9 Unit, and M.U.F.F Unit.</SmallBatteryPack.description>
+
+  <TubeSealantTank.label>crude mechanite storage</TubeSealantTank.label>
+  <TubeSealantTank.description>A small tank holding a gel-like sealant fluid that plugs holes in the android's internal tubing as it flows through. Can be installed on T1–T5 Androids, K9 Unit, and M.U.F.F Unit.</TubeSealantTank.description>
+
+  <LowPowerTransformer.label>crude bio-reactor</LowPowerTransformer.label>
+  <LowPowerTransformer.description>A highly inefficient bio-processor that can only extract energy from the cellulose of organic matter. Can be installed on T1–T5 Androids, K9 Unit, and M.U.F.F Unit.</LowPowerTransformer.description>
+
+  <BasicDCConverter.label>crude power converter</BasicDCConverter.label>
+  <BasicDCConverter.description>A simple AC/DC power converter that only effectively works in one direction. Can be installed on T1–T5 Androids, K9 Unit, and M.U.F.F Unit.</BasicDCConverter.description>
+
+  <!-- ==================== Body Parts - Advanced ==================== -->
+
+  <AdvancedReplacementArm.label>high power arm</AdvancedReplacementArm.label>
+  <AdvancedReplacementArm.description>An extremely tough and strong arm built for heavy-duty workloads: construction, warfare, or post-disaster rescue. Can be installed on T2–T5 Androids.</AdvancedReplacementArm.description>
+
+  <AdvancedReplacementLeg.label>high power leg</AdvancedReplacementLeg.label>
+  <AdvancedReplacementLeg.description>A high-speed leg developed with performance in mind, widely used by Android Olympic runners on glitterworlds. Can be installed on T2–T5 Androids.</AdvancedReplacementLeg.description>
+
+  <MultiSpectrumEye.label>advanced light sensor</MultiSpectrumEye.label>
+  <MultiSpectrumEye.description>An advanced eye sensor that lets the android switch between infrared, X-ray, and ultraviolet vision modes, far beyond factory standard visual range. Can be installed on T3–T5 Androids.</MultiSpectrumEye.description>
+
+  <MultiLayerHeatsink.label>advanced heatsink</MultiLayerHeatsink.label>
+  <MultiLayerHeatsink.description>A multi-layer heatsink composed of different materials for maximum heat transfer efficiency. Can be installed on T3–T5 Androids.</MultiLayerHeatsink.description>
+
+  <AdvancedCoolantInjector.label>advanced coolant pump</AdvancedCoolantInjector.label>
+  <AdvancedCoolantInjector.description>A continuous high-pressure coolant injector that replaces the inefficient pulsed pumping of cruder models. Can be installed on T3–T5 Androids.</AdvancedCoolantInjector.description>
+
+  <NanowireBattery.label>advanced battery pack</NanowireBattery.label>
+  <NanowireBattery.description>A nanowire battery using meshed layers of gold and plasteel to achieve maximum energy density and output. Can be installed on T3–T5 Androids.</NanowireBattery.description>
+
+  <NaniteStorageDevice.label>advanced mechanite storage</NaniteStorageDevice.label>
+  <NaniteStorageDevice.description>Releases nanites into the android's coolant stream for rapid component repair and recovery from malicious viruses. Increases android healing rate by 30%. Can be installed on T3–T5 Androids.</NaniteStorageDevice.description>
+
+  <HighPowerTransformer.label>advanced bio-reactor</HighPowerTransformer.label>
+  <HighPowerTransformer.description>A high-efficiency bio-processor capable of converting most organic matter into energy with minimal waste. Can be installed on T3–T5 Androids.</HighPowerTransformer.description>
+
+  <HighPowerConverter.label>advanced power converter</HighPowerConverter.label>
+  <HighPowerConverter.description>An advanced power converter operating at near 99.9% conversion efficiency with instantaneous signal manipulation. Can be installed on T3–T5 Androids.</HighPowerConverter.description>
+
+  <!-- ==================== Body Parts - K9 ==================== -->
+
+  <BasicRearCounterweight.label>basic counterweight</BasicRearCounterweight.label>
+  <BasicRearCounterweight.description>A crude counterweight consisting of a large steel ball on the end of a rod. Can be installed on K9 Cybernetic Unit.</BasicRearCounterweight.description>
+
+  <AdvRearCounterweight.label>advanced counterweight</AdvRearCounterweight.label>
+  <AdvRearCounterweight.description>A gyroscopic counterweight providing much greater stability and efficiency than its basic counterpart. Can be installed on K9 Cybernetic Unit.</AdvRearCounterweight.description>
+
+  <CrudeJawAndroid.label>crude jaw</CrudeJawAndroid.label>
+  <CrudeJawAndroid.description>A flimsy, weak jaw with poor bite force. Can be installed on K9 Cybernetic Unit.</CrudeJawAndroid.description>
+
+  <AdvJawAndroid.label>cybernetic jaw</AdvJawAndroid.label>
+  <AdvJawAndroid.description>An incredibly powerful jaw capable of crushing bone with ease. A terrifying upgrade for any K9 unit. Can be installed on K9 Cybernetic Unit.</AdvJawAndroid.description>
+
+  <!-- ==================== Body Parts - Mind Implants ==================== -->
+
+  <PositronMindImplant.label>positronic rewiring</PositronMindImplant.label>
+  <PositronMindImplant.description>Replaces standard brain wiring with high-efficiency positronic pathways, dramatically improving cognitive processing speed. Can be installed on T1–T5 Androids.</PositronMindImplant.description>
+
+  <SoldierMindImplant.label>soldier implant</SoldierMindImplant.label>
+  <SoldierMindImplant.description>Allows the android to perceive projectile trajectories in real time and run internal war simulations for improved combat performance. Can be installed on T1–T5 Androids.</SoldierMindImplant.description>
+
+  <BuilderMindImplant.label>blueprints implant</BuilderMindImplant.label>
+  <BuilderMindImplant.description>Stores multiple banks of construction blueprints in the AI core, substantially improving the android's building speed and accuracy. Can be installed on T1–T5 Androids.</BuilderMindImplant.description>
+
+  <SurgeonMindImplant.label>tricorder implant</SurgeonMindImplant.label>
+  <SurgeonMindImplant.description>A miniaturized tricorder allowing the android to scan biological creatures and determine a medical diagnosis at a glance. Can be installed on T1–T5 Androids.</SurgeonMindImplant.description>
+
+  <SpeedMindImplant.label>neural highways</SpeedMindImplant.label>
+  <SpeedMindImplant.description>Remaps the android's neural pathways into high-speed signal highways, increasing processing speed across all tasks. Can be installed on T1–T5 Androids.</SpeedMindImplant.description>
+
+  <GeoMindImplant.label>geological implant</GeoMindImplant.label>
+  <GeoMindImplant.description>Overlays an augmented view of rock faces with real-time guidance on the most efficient extraction paths, greatly improving mining speed. Can be installed on T1–T5 Androids.</GeoMindImplant.description>
+
+  <MechanicMindImplant.label>engineering implant</MechanicMindImplant.label>
+  <MechanicMindImplant.description>Aids the android in all mechanical tasks, boosting android surgery success rates and mechanoid disassembly efficiency. Can be installed on T1–T5 Androids.</MechanicMindImplant.description>
+
+  <CookingMindImplant.label>cuisine implant</CookingMindImplant.label>
+  <CookingMindImplant.description>Automatically uploads culinary knowledge and food safety protocols, improving cooking quality and variety. Used in glitterworld restaurants for VIP service. Can be installed on T1–T5 Androids.</CookingMindImplant.description>
+
+  <CharismaMindImplant.label>charisma implant</CharismaMindImplant.label>
+  <CharismaMindImplant.description>Enhances the android's ability to detect micro-expressions in voices and body language, improving social interactions and negotiation. Can be installed on T1–T5 Androids.</CharismaMindImplant.description>
+
+  <NegotiationMindImplant.label>negotiator implant</NegotiationMindImplant.label>
+  <NegotiationMindImplant.description>Aids in negotiation across a wide range of scenarios including interrogation and trade. Standard equipment in law enforcement android models. Can be installed on T1–T5 Androids.</NegotiationMindImplant.description>
+
+  <AnimalMindImplant.label>zoology implant</AnimalMindImplant.label>
+  <AnimalMindImplant.description>Enhances the android's ability to read animal emotions in depth, improving taming success and animal handling. Can be installed on T1–T5 Androids.</AnimalMindImplant.description>
+
+  <FarmingMindImplant.label>agricultural implant</FarmingMindImplant.label>
+  <FarmingMindImplant.description>Adds an augmented view displaying soil mineral content and crop health via spectrographic scans emitted from around the eye. Can be installed on T1–T5 Androids.</FarmingMindImplant.description>
+
+  <BasicLaborMindImplant.label>basic labor chip</BasicLaborMindImplant.label>
+  <BasicLaborMindImplant.description>The standard factory android chip, teaching more efficient techniques for general labor tasks across all work categories. Can be installed on T1–T5 Androids.</BasicLaborMindImplant.description>
+
+  <EvolvingImplant.label>evolving AI upgrade</EvolvingImplant.label>
+  <EvolvingImplant.description>A self-improving AI module that gradually enhances all capabilities over time through continuous learning, eventually reaching peak efficiency. Can be installed on T1–T5 Androids.</EvolvingImplant.description>
+
+  <!-- ==================== Body Parts - Cybernetic / Archotech ==================== -->
+
+  <CyberReplacementArm.label>cybernetic arm</CyberReplacementArm.label>
+  <CyberReplacementArm.description>An arm made from Ultraweave composites developed by the most advanced glitterworld societies. Exceptionally strong and durable. Can be installed on T4–T5 Androids.</CyberReplacementArm.description>
+
+  <CyberReplacementLeg.label>cybernetic leg</CyberReplacementLeg.label>
+  <CyberReplacementLeg.description>A rare leg upgrade that provides immense speed and strength, rarely seen outside a laboratory. Can be installed on T4–T5 Androids.</CyberReplacementLeg.description>
+
+  <SecretHeatsink.label>archotech heatsink</SecretHeatsink.label>
+  <SecretHeatsink.description>A near-perfect heatsink that radiates heat at approximately 99% efficiency, practically ejecting thermal energy. Can be installed on T4–T5 Androids.</SecretHeatsink.description>
+
+  <MDEye.label>archotech light sensor</MDEye.label>
+  <MDEye.description>An eye that can switch between 3D and 4D vision, allowing the android to predict movement patterns with pinpoint accuracy as if seeing events before they happen. Can be installed on T4–T5 Androids.</MDEye.description>
+
+  <SecretCoolantPump.label>archotech coolant pump</SecretCoolantPump.label>
+  <SecretCoolantPump.description>A coolant injector with an extraordinary operating range, functional even at near absolute zero temperatures. Can be installed on T4–T5 Androids.</SecretCoolantPump.description>
+
+  <SecretBatteryPack.label>archotech battery pack</SecretBatteryPack.label>
+  <SecretBatteryPack.description>Inspired by Vanometric power generation, this battery achieves far greater charge capacity than any predecessor. Can be installed on T4–T5 Androids.</SecretBatteryPack.description>
+
+  <ArchotechNanites.label>archotech mechanite storage</ArchotechNanites.label>
+  <ArchotechNanites.description>A compartment of archotech nanites whose inner workings remain a mystery even to advanced cultures. What is known: their repair capabilities are exceptional. Increases android healing rate by 60%. Can be installed on T4–T5 Androids.</ArchotechNanites.description>
+
+  <MolecularDecomposer.label>archotech bio-reactor</MolecularDecomposer.label>
+  <MolecularDecomposer.description>A reactor that converts consumed material at the molecular level for extraordinary conversion efficiency, making other bio-reactors look primitive. Can be installed on T4–T5 Androids.</MolecularDecomposer.description>
+
+  <QuantumConverter.label>archotech power converter</QuantumConverter.label>
+  <QuantumConverter.description>A highly advanced zero-point energy converter that transfers electrical energy throughout the body at 100% efficiency. Can be installed on T4–T5 Androids.</QuantumConverter.description>
+
+  <!-- ==================== Body Parts - Hearing ==================== -->
+
+  <CrudeHearingS.label>crude hearing sensor</CrudeHearingS.label>
+  <CrudeHearingS.description>A basic sound interpretation implant that can only process fundamental audio frequencies. Can be installed on T1–T5 Androids.</CrudeHearingS.description>
+
+  <AdvHearingS.label>advanced hearing sensor</AdvHearingS.label>
+  <AdvHearingS.description>A precision hearing sensor accurate up to one kilometer, capable of detecting the faintest sounds. Can be installed on T3–T5 Androids.</AdvHearingS.description>
+
+  <ArchHearingS.label>archotech hearing sensor</ArchHearingS.label>
+  <ArchHearingS.description>The pinnacle of sound detection technology, capable of detecting all frequencies with potentially unlimited range. Can be installed on T4–T5 Androids.</ArchHearingS.description>
+
+  <!-- ==================== Body Parts - Smell ==================== -->
+
+  <CrudeSmellingS.label>crude smelling sensor</CrudeSmellingS.label>
+  <CrudeSmellingS.description>A basic olfactory implant that can detect only the most fundamental smells, with marginal ventilation improvement. Can be installed on T1–T5 Androids.</CrudeSmellingS.description>
+
+  <SmellingAdvS.label>advanced smelling sensor</SmellingAdvS.label>
+  <SmellingAdvS.description>An advanced olfactory sensor with widened openings for improved odor detection and ventilation. Can be installed on T2–T5 Androids.</SmellingAdvS.description>
+
+  <ArchSmellingS.label>archotech smelling sensor</ArchSmellingS.label>
+  <ArchSmellingS.description>The pinnacle of olfactory technology, capable of detecting all smell ranges with unlimited sensitivity and greatly improved air ventilation. Can be installed on T4–T5 Androids.</ArchSmellingS.description>
+
+  <!-- ==================== Backstory Items ==================== -->
+
+  <Backstory_PitFighterUpgradeItem.label>pit gauntlet</Backstory_PitFighterUpgradeItem.label>
+  <Backstory_PitFighterUpgradeItem.description>A custom hand implant with three hydraulic spikes and a heavy metal plate covering the back of the hand, given to this android as a mark of their fame as a pit fighter.</Backstory_PitFighterUpgradeItem.description>
+
+  <Backstory_HighCouncilUpgradeItem.label>quantum mind</Backstory_HighCouncilUpgradeItem.label>
+  <Backstory_HighCouncilUpgradeItem.description>A highly exotic artificial mind upgrade that reportedly uses quantum tunnelling to read the neural patterns of nearby speakers before they even form thoughts into words.</Backstory_HighCouncilUpgradeItem.description>
+
+  <Backstory_TranscendantAssimilatorUpgradeItem.label>plasma gauntlet</Backstory_TranscendantAssimilatorUpgradeItem.label>
+  <Backstory_TranscendantAssimilatorUpgradeItem.description>Two permanently extended forearm blades of immense weight. When activated, they heat to white-hot temperatures that convert surrounding air into plasma using technology unlike anything seen before.</Backstory_TranscendantAssimilatorUpgradeItem.description>
+
+  <!-- ==================== Resources ==================== -->
+
+  <RepairKitAT.label>upgrade kit</RepairKitAT.label>
+  <RepairKitAT.description>A specialized kit containing tools and materials for repairing and modifying androids.</RepairKitAT.description>
+
+  <AndroidT1Kit.label>android assembly kit</AndroidT1Kit.label>
+  <AndroidT1Kit.description>Contains the disassembled parts of a T1 android packed for efficient transport, along with clear assembly instructions simple enough for anyone to follow.</AndroidT1Kit.description>
+
+  <AndroidT2Kit.label>adv android assembly kit</AndroidT2Kit.label>
+  <AndroidT2Kit.description>Contains the disassembled parts of a T2 android packed for efficient transport, along with clear assembly instructions simple enough for anyone to follow.</AndroidT2Kit.description>
+
+  <!-- ==================== Shells ==================== -->
+
+  <Nanoswarm_shell.label>swarm shell</Nanoswarm_shell.label>
+  <Nanoswarm_shell.description>A pressurized shell filled with micro-scythers — tiny drones programmed to seek out and kill nearby targets after detonation.</Nanoswarm_shell.description>
+
+  <!-- ==================== Stuff / Resources ==================== -->
+
+  <ChemicalEgg.label>chemical capsule</ChemicalEgg.label>
+  <ChemicalEgg.description>A hard capsule filled with processed hydrocarbons and other chemicals. Can be refined into neutroamine or chemfuel at a drug lab or refinery.</ChemicalEgg.description>
+
+  <SteelWool.label>metallic wool</SteelWool.label>
+  <SteelWool.description>Faux wool made of long metallic strands produced by the phytomining unit. Primarily used for smelting into steel, but can also be woven into heavy clothing. Human colonists wearing it will suffer mood debuffs unless they are masochists; androids are unaffected.</SteelWool.description>
+
+  <NSolution.label>nutrient solution</NSolution.label>
+  <NSolution.description>An oily, calorie-dense substance extracted from the N.Solution unit. Easy to store and nutritious, though not particularly appetizing.</NSolution.description>
+
+  <!-- ==================== Weapons ==================== -->
+
+  <Mech40MMCannon.label>40mm cannon</Mech40MMCannon.label>
+  <Mech40MMCannon.description>A factory-standard weapon mounted on every M7 Mech during production. Capable of burst-firing three 80kg rounds in quick succession, designed for anti-material and mech-vs-mech combat.</Mech40MMCannon.description>
+
+  <MechMastiffGun.label>mastiff shotgun</MechMastiffGun.label>
+  <MechMastiffGun.description>A mech shotgun that chills its specialized pellets to below -100°C before firing. The extreme cold makes the pellets brittle, causing them to shatter inside the target on impact for devastating internal damage.</MechMastiffGun.description>
+
+  <MechHandCannon.label>hand cannon</MechHandCannon.label>
+  <MechHandCannon.description>The X-5 Pistol, known as the 'hand cannon', is a semi-automatic handgun with specialized rifling that fires rounds at immense velocity, dealing severe damage to both mechanical and biological targets.</MechHandCannon.description>
+
+  <MeleeWeapon_MechKnife.label>mech blade</MeleeWeapon_MechKnife.label>
+  <MeleeWeapon_MechKnife.description>A long, heavy blade made from 3-inch thick titanium, providing devastating melee capability to any mech unit that wields it.</MeleeWeapon_MechKnife.description>
+
+  <AntiMechRifle.label>anti-mech rifle</AntiMechRifle.label>
+  <AntiMechRifle.description>A massive, purpose-built rifle designed to take down mechanized infantry. Its high stopping power deals devastating damage to even the largest opponents.</AntiMechRifle.description>
+
 </LanguageData>

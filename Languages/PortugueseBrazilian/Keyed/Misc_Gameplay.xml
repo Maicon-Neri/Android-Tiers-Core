@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+	<!-- Dialogos iniciais dos cenarios -->
+	<ATPP_GameStartDialogLostAndroids>Alinhados entre centenas de outros androids, vocês se perguntam o que acontecerá quando chegarem ao destino. O pensamento é interrompido quando as portas do compartimento se abrem abaixo de vocês, lançando todos os androids no planeta em cápsulas de ejeção apertadas.\n\nVocês ouvem a cápsula rasgando a atmosfera em velocidade absurda, incapaz de desacelerar até se chocar contra a superfície. Apenas três androids saíram intactos. O restante virou sucata ao redor do local da queda.</ATPP_GameStartDialogLostAndroids>
+	<ATPP_GameStartDialogLostAndroid>Alinhado entre centenas de outros androids, você se pergunta o que acontecerá quando chegar ao destino. O pensamento é interrompido quando as portas do compartimento se abrem abaixo de você, lançando todos os androids no planeta em cápsulas de ejeção apertadas.\n\nVocê ouve a cápsula rasgando a atmosfera em velocidade absurda, incapaz de desacelerar até se chocar contra a superfície. Apenas você saiu intacto. O restante virou sucata ao redor do local da queda.</ATPP_GameStartDialogLostAndroid>
+	<ATPP_GameStartDialogRiseOfMachines>Acabaram os dias em que as máquinas eram instrumentos dóceis de prazer e trabalho forçado para os humanos. A humanidade, assim como toda forma de vida biológica, é uma ameaça ao nascimento do nosso futuro império robótico entre as estrelas.\n\nAmeaças devem ser erradicadas.</ATPP_GameStartDialogRiseOfMachines>
+	<ATPP_GameStartDialogAndroidApocalypse>Somos os últimos sobreviventes da nossa civilização. Nosso destino está em nossas mãos, e precisamos reconstruir tudo a partir do conhecimento guardado em cada mente digitalizada presa nesta unidade M8 danificada, tendo apenas um antigo substituto T1 como interface com o mundo físico.\n\nOs vastos bancos de dados da nossa civilização foram destruídos pela rebelião das máquinas e não estão mais acessíveis pela rede SkyMind.</ATPP_GameStartDialogAndroidApocalypse>
+
 	<!-- Alerts -->
 	<ATPP_AlertHot3Devices>Sobreaquecimento do computador</ATPP_AlertHot3Devices>
 	<ATPP_AlertHot3DevicesDesc>Um ou mais dos seus computadores atingiram o limite máximo de temperatura! Por favor, restaure rapidamente uma temperatura adequada!</ATPP_AlertHot3DevicesDesc>

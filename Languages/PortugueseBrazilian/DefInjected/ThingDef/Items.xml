@@ -1,55 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<ATPP_NanitesHidraulicoSerum.label>Banco De Nanites (Hidraulico)</ATPP_NanitesHidraulicoSerum.label>
-	<ATPP_NanitesHidraulicoSerum.description>Um banco de um uso de Nanites sintonizado para reparar sistemas Hidraulico Android quebrados (relacionado à velhice).</ATPP_NanitesHidraulicoSerum.description>
-	<ATPP_NanitesHidraulicoSerum.comps.CompUsable.useLabel>Use este soro de Nanite para corrigir problemas de idade do Android</ATPP_NanitesHidraulicoSerum.comps.CompUsable.useLabel>
-	
-	<ATPP_NanitesCPUSerum.label>Banco De Nanites (CPU)</ATPP_NanitesCPUSerum.label>
-	<ATPP_NanitesCPUSerum.description>Um banco de um uso de nanitas sintonizado para reparar sistemas de cérebro artificial Android quebrado (relacionado à velhice).</ATPP_NanitesCPUSerum.description>
-	<ATPP_NanitesCPUSerum.comps.CompUsable.useLabel>Use este soro de Nanite para corrigir problemas de idade do Android</ATPP_NanitesCPUSerum.comps.CompUsable.useLabel>
-	
-	<ATPP_NanitesRefrigeracaoSerum.label>Banco De Nanites (Refrigeracao)</ATPP_NanitesRefrigeracaoSerum.label>
-	<ATPP_NanitesRefrigeracaoSerum.description>Um banco de um uso de nanitas sintonizado para reparar sistemas de refrigeracao Android quebrados em caso de superaquecimento (relacionado à velhice).</ATPP_NanitesRefrigeracaoSerum.description>
-	<ATPP_NanitesRefrigeracaoSerum.comps.CompUsable.useLabel>Use este soro de Nanite para corrigir problemas de idade do Android</ATPP_NanitesRefrigeracaoSerum.comps.CompUsable.useLabel>
-	
-	<ATPP_NanitesFrameSerum.label>Banco De Nanites (Estrutura)</ATPP_NanitesFrameSerum.label>
-	<ATPP_NanitesFrameSerum.description>Um banco de um uso de nanitas sintonizado para reparar exoesqueletos de android quebrados (relacionado à velhice).</ATPP_NanitesFrameSerum.description>
-	<ATPP_NanitesFrameSerum.comps.CompUsable.useLabel>Use this nanite serum to fix android age issues</ATPP_NanitesFrameSerum.comps.CompUsable.useLabel>
+  <!-- ==================== Soros de Nanites ==================== -->
 
-	<ATPP_AndroidNanokitBasic.label>Nanokit básico</ATPP_AndroidNanokitBasic.label>
-	<ATPP_AndroidNanokitBasic.description>Um kit contendo nanos para tratar as feridas de andróides</ATPP_AndroidNanokitBasic.description>
-	
-	<ATPP_AndroidNanokitIntermediate.label>Nanokit intermediário</ATPP_AndroidNanokitIntermediate.label>
-	<ATPP_AndroidNanokitIntermediate.description>Um kit contendo nanos para tratar as feridas de andróides</ATPP_AndroidNanokitIntermediate.description>
-	
-	<ATPP_AndroidNanokitAdvanced.label>Nanokit avançado</ATPP_AndroidNanokitAdvanced.label>
-	<ATPP_AndroidNanokitAdvanced.description>Um kit contendo nanos para tratar as feridas de andróides</ATPP_AndroidNanokitAdvanced.description>
-	
-	<ATPP_RXChip.label>RX Neural Chip</ATPP_RXChip.label>
-	<ATPP_RXChip.description>Um chip neural que atua como um SkyMind pessoal.</ATPP_RXChip.description>
-	
-	<ATPP_VX0Chip.label>VX0 Neural Chip</ATPP_VX0Chip.label>
-	<ATPP_VX0Chip.description>Um chip neural que transforma seu hospedeiro em um substituto biológico.</ATPP_VX0Chip.description>
-	
-	<ATPP_VX1Chip.label>VX1 Neural Chip</ATPP_VX1Chip.label>
-	<ATPP_VX1Chip.description>Um chip neural que permite que ele seja hospedeiro para controlar remotamente qualquer série SX android ou substituto biológico.</ATPP_VX1Chip.description>
-	
-	<ATPP_VX2Chip.label>VX2 Neural Chip</ATPP_VX2Chip.label>
-	<ATPP_VX2Chip.description>Um chip neural que permite que ele seja hospedeiro para controlar remotamente qualquer série SX android ou substituto biológico e permute/duplicar sua mente.</ATPP_VX2Chip.description>
-	
-	<ATPP_VX3Chip.label>VX3 Neural Chip</ATPP_VX3Chip.label>
-	<ATPP_VX3Chip.description>Um chip neural que permite que ele seja hospedeiro para controlar remotamente androides da série Mulitple SX ou substitutos biológicos ao mesmo tempo e permut/duplicar sua mente.</ATPP_VX3Chip.description>
-	
-	<ATPP_T1ArtificialBrain.label>Cérebro Artificial T1</ATPP_T1ArtificialBrain.label>
-	<ATPP_T1ArtificialBrain.description>Um cérebro T1 artificial, permitindo transformar um substituto T1 em uma rede neural em branco android</ATPP_T1ArtificialBrain.description>
-	
-	<ATPP_T2ArtificialBrain.label>Cérebro Artificial T2</ATPP_T2ArtificialBrain.label>
-	<ATPP_T2ArtificialBrain.description>Um cérebro T2 artificial, permitindo transformar um substituto T2 em uma rede neural em branco android</ATPP_T2ArtificialBrain.description>
-	
-	<ATPP_T3ArtificialBrain.label>Cérebro Artificial T3</ATPP_T3ArtificialBrain.label>
-	<ATPP_T3ArtificialBrain.description>Um cérebro T3 artificial, permitindo transformar um substituto T3 em uma rede neural em branco android</ATPP_T3ArtificialBrain.description>
-	
-	<ATPP_T4ArtificialBrain.label>Cérebro Artificial T4</ATPP_T4ArtificialBrain.label>
-	<ATPP_T4ArtificialBrain.description>Um cérebro T4 artificial, permitindo transformar um substituto T4 em uma rede neural em branco android</ATPP_T4ArtificialBrain.description>
+  <ATPP_NanitesHydraulicSerum.label>Banco De Nanites (Hidráulico)</ATPP_NanitesHydraulicSerum.label>
+  <ATPP_NanitesHydraulicSerum.description>Um banco de uso único de nanites sintonizado para reparar sistemas hidráulicos de androids danificados (relacionado à velhice).</ATPP_NanitesHydraulicSerum.description>
+  <ATPP_NanitesHydraulicSerum.comps.CompUsable.useLabel>Use este soro de nanites para corrigir problemas de idade do android</ATPP_NanitesHydraulicSerum.comps.CompUsable.useLabel>
+
+  <ATPP_NanitesCPUSerum.label>Banco De Nanites (CPU)</ATPP_NanitesCPUSerum.label>
+  <ATPP_NanitesCPUSerum.description>Um banco de uso único de nanites sintonizado para reparar sistemas de cérebro artificial de androids danificados (relacionado à velhice).</ATPP_NanitesCPUSerum.description>
+  <ATPP_NanitesCPUSerum.comps.CompUsable.useLabel>Use este soro de nanites para corrigir problemas de idade do android</ATPP_NanitesCPUSerum.comps.CompUsable.useLabel>
+
+  <ATPP_NanitesCoolingSerum.label>Banco De Nanites (Refrigeração)</ATPP_NanitesCoolingSerum.label>
+  <ATPP_NanitesCoolingSerum.description>Um banco de uso único de nanites sintonizado para reparar sistemas de refrigeração de androids danificados em caso de superaquecimento (relacionado à velhice).</ATPP_NanitesCoolingSerum.description>
+  <ATPP_NanitesCoolingSerum.comps.CompUsable.useLabel>Use este soro de nanites para corrigir problemas de idade do android</ATPP_NanitesCoolingSerum.comps.CompUsable.useLabel>
+
+  <ATPP_NanitesFrameSerum.label>Banco De Nanites (Estrutura)</ATPP_NanitesFrameSerum.label>
+  <ATPP_NanitesFrameSerum.description>Um banco de uso único de nanites sintonizado para reparar exoesqueletos de androids danificados (relacionado à velhice).</ATPP_NanitesFrameSerum.description>
+  <ATPP_NanitesFrameSerum.comps.CompUsable.useLabel>Use este soro de nanites para corrigir problemas de idade do android</ATPP_NanitesFrameSerum.comps.CompUsable.useLabel>
+
+  <!-- ==================== Nanokits ==================== -->
+
+  <ATPP_AndroidNanokitBasic.label>Nanokit básico</ATPP_AndroidNanokitBasic.label>
+  <ATPP_AndroidNanokitBasic.description>Um kit contendo nanobots para tratar as feridas de androids.</ATPP_AndroidNanokitBasic.description>
+
+  <ATPP_AndroidNanokitIntermediate.label>Nanokit intermediário</ATPP_AndroidNanokitIntermediate.label>
+  <ATPP_AndroidNanokitIntermediate.description>Um kit contendo nanobots para tratar as feridas de androids.</ATPP_AndroidNanokitIntermediate.description>
+
+  <ATPP_AndroidNanokitAdvanced.label>Nanokit avançado</ATPP_AndroidNanokitAdvanced.label>
+  <ATPP_AndroidNanokitAdvanced.description>Um kit contendo nanobots para tratar as feridas de androids.</ATPP_AndroidNanokitAdvanced.description>
+
+  <!-- ==================== Chips Neurais ==================== -->
+
+  <ATPP_RXChip.label>Chip Neural RX</ATPP_RXChip.label>
+  <ATPP_RXChip.description>Um chip neural que funciona como um repetidor SkyMind pessoal, permitindo que o portador se conecte à rede SkyMind sem necessidade de um terminal próximo.</ATPP_RXChip.description>
+
+  <ATPP_VX0Chip.label>Chip Neural VX0</ATPP_VX0Chip.label>
+  <ATPP_VX0Chip.description>Um chip neural que transforma o portador em um substituto biológico, permitindo que um operador remoto assuma o controle direto do corpo através da rede SkyMind.</ATPP_VX0Chip.description>
+
+  <ATPP_VX1Chip.label>Chip Neural VX1</ATPP_VX1Chip.label>
+  <ATPP_VX1Chip.description>Um chip neural que permite ao portador controlar remotamente qualquer android da série SX ou substituto biológico através da rede SkyMind.</ATPP_VX1Chip.description>
+
+  <ATPP_VX2Chip.label>Chip Neural VX2</ATPP_VX2Chip.label>
+  <ATPP_VX2Chip.description>Um chip neural que permite ao portador controlar remotamente androids da série SX ou substitutos biológicos e transferir ou duplicar sua consciência pela rede SkyMind.</ATPP_VX2Chip.description>
+
+  <ATPP_VX3Chip.label>Chip Neural VX3</ATPP_VX3Chip.label>
+  <ATPP_VX3Chip.description>Um chip neural que permite ao portador controlar simultaneamente múltiplos androids da série SX ou substitutos biológicos e transferir ou duplicar sua consciência pela rede SkyMind.</ATPP_VX3Chip.description>
+
+  <!-- ==================== Cérebros Artificiais ==================== -->
+
+  <ATPP_T1ArtificialBrain.label>Cérebro Artificial T1</ATPP_T1ArtificialBrain.label>
+  <ATPP_T1ArtificialBrain.description>Um cérebro artificial T1, permitindo transformar um substituto T1 em um android com rede neural em branco.</ATPP_T1ArtificialBrain.description>
+
+  <ATPP_T2ArtificialBrain.label>Cérebro Artificial T2</ATPP_T2ArtificialBrain.label>
+  <ATPP_T2ArtificialBrain.description>Um cérebro artificial T2, permitindo transformar um substituto T2 em um android com rede neural em branco.</ATPP_T2ArtificialBrain.description>
+
+  <ATPP_T3ArtificialBrain.label>Cérebro Artificial T3</ATPP_T3ArtificialBrain.label>
+  <ATPP_T3ArtificialBrain.description>Um cérebro artificial T3, permitindo transformar um substituto T3 em um android com rede neural em branco.</ATPP_T3ArtificialBrain.description>
+
+  <ATPP_T4ArtificialBrain.label>Cérebro Artificial T4</ATPP_T4ArtificialBrain.label>
+  <ATPP_T4ArtificialBrain.description>Um cérebro artificial T4, permitindo transformar um substituto T4 em um android com rede neural em branco.</ATPP_T4ArtificialBrain.description>
+
+  <!-- ==================== Peças de Corpo - Armadura ==================== -->
+
+  <SteelPlating.label>armação de aço</SteelPlating.label>
+  <SteelPlating.description>Um reforço estrutural simples de aço para androids, fornecendo proteção modesta contra danos. Pode ser instalado em androids T1–T5, Unidade K9 e Unidade M.U.F.F.</SteelPlating.description>
+
+  <PlasteelPlating.label>revestimento de plastelete</PlasteelPlating.label>
+  <PlasteelPlating.description>Revestimentos de plastelete instalados sobre os pontos fracos da estrutura do android, aumentando substancialmente a resistência a danos. Pode ser instalado em androids T2–T5, Unidade K9 e Unidade M.U.F.F.</PlasteelPlating.description>
+
+  <CompositePlating.label>blindagem composta</CompositePlating.label>
+  <CompositePlating.description>Blindagem composta de alta resistência oferecendo excelente proteção estrutural. Pode ser instalada em androids T3–T5, Unidade K9 e Unidade M.U.F.F.</CompositePlating.description>
+
+  <!-- ==================== Peças de Corpo - Utilitárias ==================== -->
+
+  <HydraulicFrame.label>estrutura hidráulica</HydraulicFrame.label>
+  <HydraulicFrame.description>Melhora a estrutura do android com bombas hidráulicas de alta potência, aumentando a capacidade de carga. Os movimentos ficam levemente restritos pelo volume adicional. Pode ser instalada em androids T1–T5, Unidade K9 e Unidade M.U.F.F.</HydraulicFrame.description>
+
+  <HydraulicLeg.label>perna hidráulica</HydraulicLeg.label>
+  <HydraulicLeg.description>Uma perna de substituição hidráulica robusta que aumenta a capacidade de carga, em troca de alguma agilidade. Pode ser instalada em androids T1–T5, Unidade K9 e Unidade M.U.F.F.</HydraulicLeg.description>
+
+  <HydraulicArm.label>braço hidráulico</HydraulicArm.label>
+  <HydraulicArm.description>Um braço de substituição hidráulico robusto que aumenta a capacidade de carga e força no combate corpo a corpo, em troca de alguma agilidade. Pode ser instalado em androids T1–T5.</HydraulicArm.description>
+
+  <MiningArm_AT.label>braço de mineração</MiningArm_AT.label>
+  <MiningArm_AT.description>Um braço-broca de plastelete amplamente utilizado durante a corrida dos asteroides no século 22. Excelente para mineração, mas inadequado para tarefas delicadas. Pode ser instalado em androids T2–T5.</MiningArm_AT.description>
+
+  <!-- ==================== Peças de Corpo - Básicas ==================== -->
+
+  <BasicReplacementArm.label>braço de substituição básico</BasicReplacementArm.label>
+  <BasicReplacementArm.description>Um braço de substituição produzido em massa, padrão para grandes exércitos de androids em planetas em guerra. Pode ser instalado em androids T1–T5.</BasicReplacementArm.description>
+
+  <BasicReplacementLeg.label>perna de substituição básica</BasicReplacementLeg.label>
+  <BasicReplacementLeg.description>Uma perna de substituição produzida em massa, padrão para grandes exércitos de androids em planetas em guerra. Pode ser instalada em androids T1–T5, Unidade K9 e Unidade M.U.F.F.</BasicReplacementLeg.description>
+
+  <CrudeHeatsink.label>dissipador de calor rudimentar</CrudeHeatsink.label>
+  <CrudeHeatsink.description>Um dissipador de calor muito básico feito de sucata metálica grosseiramente organizada em forma de grade. Pode ser instalado em androids T1–T5, Unidade K9 e Unidade M.U.F.F.</CrudeHeatsink.description>
+
+  <LightReceivingDiode.label>sensor de luz rudimentar</LightReceivingDiode.label>
+  <LightReceivingDiode.description>Um diodo de detecção de luz básico que funciona como simples interruptor ligado/desligado conforme a luz ambiente. Pode ser instalado em androids T1–T5.</LightReceivingDiode.description>
+
+  <FlimsyCoolantPump.label>bomba de refrigeração rudimentar</FlimsyCoolantPump.label>
+  <FlimsyCoolantPump.description>Uma bomba de refrigeração frágil por pressão diferencial que mal mantém o fluxo de refrigerante adequado. Pode ser instalada em androids T1–T5, Unidade K9 e Unidade M.U.F.F.</FlimsyCoolantPump.description>
+
+  <SmallBatteryPack.label>bateria rudimentar</SmallBatteryPack.label>
+  <SmallBatteryPack.description>Um conjunto de pequenas baterias enfileiradas para maximizar a voltagem — o que ainda assim não é muito. Pode ser instalada em androids T1–T5, Unidade K9 e Unidade M.U.F.F.</SmallBatteryPack.description>
+
+  <TubeSealantTank.label>reservatório de mecanitos rudimentar</TubeSealantTank.label>
+  <TubeSealantTank.description>Um pequeno tanque com fluido selante gelatinoso que tampona furos nos tubos internos do android conforme flui por eles. Pode ser instalado em androids T1–T5, Unidade K9 e Unidade M.U.F.F.</TubeSealantTank.description>
+
+  <LowPowerTransformer.label>biorreator rudimentar</LowPowerTransformer.label>
+  <LowPowerTransformer.description>Um bioprocessador altamente ineficiente que extrai energia apenas da celulose de matéria orgânica. Pode ser instalado em androids T1–T5, Unidade K9 e Unidade M.U.F.F.</LowPowerTransformer.description>
+
+  <BasicDCConverter.label>conversor de energia rudimentar</BasicDCConverter.label>
+  <BasicDCConverter.description>Um conversor de energia AC/CC simples que só funciona efetivamente em uma direção. Pode ser instalado em androids T1–T5, Unidade K9 e Unidade M.U.F.F.</BasicDCConverter.description>
+
+  <!-- ==================== Peças de Corpo - Avançadas ==================== -->
+
+  <AdvancedReplacementArm.label>braço de alta potência</AdvancedReplacementArm.label>
+  <AdvancedReplacementArm.description>Um braço extremamente resistente e forte, feito para cargas pesadas: construção, combate ou resgate pós-desastre. Pode ser instalado em androids T2–T5.</AdvancedReplacementArm.description>
+
+  <AdvancedReplacementLeg.label>perna de alta potência</AdvancedReplacementLeg.label>
+  <AdvancedReplacementLeg.description>Uma perna de alta velocidade desenvolvida com foco em desempenho, amplamente usada por corredores olímpicos androids em mundos brilhantes. Pode ser instalada em androids T2–T5.</AdvancedReplacementLeg.description>
+
+  <MultiSpectrumEye.label>sensor de luz avançado</MultiSpectrumEye.label>
+  <MultiSpectrumEye.description>Um olho avançado que permite ao android alternar entre visão infravermelha, raio-X e ultravioleta, muito além do alcance visual padrão de fábrica. Pode ser instalado em androids T3–T5.</MultiSpectrumEye.description>
+
+  <MultiLayerHeatsink.label>dissipador de calor avançado</MultiLayerHeatsink.label>
+  <MultiLayerHeatsink.description>Um dissipador multicamadas composto de diferentes materiais para máxima eficiência na transferência de calor. Pode ser instalado em androids T3–T5.</MultiLayerHeatsink.description>
+
+  <AdvancedCoolantInjector.label>bomba de refrigeração avançada</AdvancedCoolantInjector.label>
+  <AdvancedCoolantInjector.description>Uma bomba de injeção de refrigerante contínua e de alta pressão, muito superior aos modelos pulsados mais primitivos. Pode ser instalada em androids T3–T5.</AdvancedCoolantInjector.description>
+
+  <NanowireBattery.label>bateria avançada</NanowireBattery.label>
+  <NanowireBattery.description>Uma bateria de nanofios com camadas intercaladas de ouro e plastelete para máxima densidade energética e potência de saída. Pode ser instalada em androids T3–T5.</NanowireBattery.description>
+
+  <NaniteStorageDevice.label>reservatório de mecanitos avançado</NaniteStorageDevice.label>
+  <NaniteStorageDevice.description>Libera nanites no fluxo de refrigerante do android para reparos rápidos e recuperação de vírus maliciosos. Aumenta a taxa de cura do android em 30%. Pode ser instalado em androids T3–T5.</NaniteStorageDevice.description>
+
+  <HighPowerTransformer.label>biorreator avançado</HighPowerTransformer.label>
+  <HighPowerTransformer.description>Um bioprocessador de alta eficiência capaz de converter a maioria das matérias orgânicas em energia com perda mínima. Pode ser instalado em androids T3–T5.</HighPowerTransformer.description>
+
+  <HighPowerConverter.label>conversor de energia avançado</HighPowerConverter.label>
+  <HighPowerConverter.description>Um conversor de energia avançado operando com eficiência de quase 99,9% e manipulação de sinal instantânea. Pode ser instalado em androids T3–T5.</HighPowerConverter.description>
+
+  <!-- ==================== Peças de Corpo - K9 ==================== -->
+
+  <BasicRearCounterweight.label>contrapeso básico</BasicRearCounterweight.label>
+  <BasicRearCounterweight.description>Um contrapeso rudimentar consistindo em uma bola de aço pesada presa a uma haste. Pode ser instalado na Unidade K9.</BasicRearCounterweight.description>
+
+  <AdvRearCounterweight.label>contrapeso avançado</AdvRearCounterweight.label>
+  <AdvRearCounterweight.description>Um contrapeso giroscópico que fornece estabilidade e eficiência muito superiores ao modelo básico. Pode ser instalado na Unidade K9.</AdvRearCounterweight.description>
+
+  <CrudeJawAndroid.label>mandíbula rudimentar</CrudeJawAndroid.label>
+  <CrudeJawAndroid.description>Uma mandíbula frágil e com baixa força de mordida. Pode ser instalada na Unidade K9.</CrudeJawAndroid.description>
+
+  <AdvJawAndroid.label>mandíbula cibernética</AdvJawAndroid.label>
+  <AdvJawAndroid.description>Uma mandíbula incrivelmente poderosa capaz de esmagar ossos com facilidade. Uma melhoria aterrorizante para qualquer unidade K9. Pode ser instalada na Unidade K9.</AdvJawAndroid.description>
+
+  <!-- ==================== Implantes Mentais ==================== -->
+
+  <PositronMindImplant.label>recabeamento positrônico</PositronMindImplant.label>
+  <PositronMindImplant.description>Substitui o cabeamento padrão do cérebro por caminhos positrônicos de alta eficiência, melhorando dramaticamente a velocidade de processamento cognitivo. Pode ser instalado em androids T1–T5.</PositronMindImplant.description>
+
+  <SoldierMindImplant.label>implante de soldado</SoldierMindImplant.label>
+  <SoldierMindImplant.description>Permite ao android perceber trajetórias de projéteis em tempo real e executar simulações de combate internamente para melhor desempenho em batalha. Pode ser instalado em androids T1–T5.</SoldierMindImplant.description>
+
+  <BuilderMindImplant.label>implante de projetos</BuilderMindImplant.label>
+  <BuilderMindImplant.description>Armazena múltiplos bancos de plantas de construção no núcleo de IA, melhorando substancialmente a velocidade e precisão construtiva do android. Pode ser instalado em androids T1–T5.</BuilderMindImplant.description>
+
+  <SurgeonMindImplant.label>implante de tricorder</SurgeonMindImplant.label>
+  <SurgeonMindImplant.description>Um tricorder em miniatura que permite ao android escanear criaturas biológicas e determinar um diagnóstico médico com um simples olhar. Pode ser instalado em androids T1–T5.</SurgeonMindImplant.description>
+
+  <SpeedMindImplant.label>rodovias neurais</SpeedMindImplant.label>
+  <SpeedMindImplant.description>Reconfigura os caminhos neurais do android em rodovias de alta velocidade para sinais eletrônicos, aumentando a velocidade de processamento em todas as tarefas. Pode ser instalado em androids T1–T5.</SpeedMindImplant.description>
+
+  <GeoMindImplant.label>implante geológico</GeoMindImplant.label>
+  <GeoMindImplant.description>Sobrepõe uma visão aumentada de frentes de rocha com guia em tempo real sobre os caminhos de extração mais eficientes, melhorando muito a velocidade de mineração. Pode ser instalado em androids T1–T5.</GeoMindImplant.description>
+
+  <MechanicMindImplant.label>implante de engenharia</MechanicMindImplant.label>
+  <MechanicMindImplant.description>Auxilia o android em todas as tarefas mecânicas, aumentando a taxa de sucesso em cirurgias android e a eficiência na desmontagem de mecânoides. Pode ser instalado em androids T1–T5.</MechanicMindImplant.description>
+
+  <CookingMindImplant.label>implante culinário</CookingMindImplant.label>
+  <CookingMindImplant.description>Carrega automaticamente conhecimentos culinários e protocolos de segurança alimentar, melhorando a qualidade e variedade dos pratos. Usado em restaurantes de mundos brilhantes. Pode ser instalado em androids T1–T5.</CookingMindImplant.description>
+
+  <CharismaMindImplant.label>implante de carisma</CharismaMindImplant.label>
+  <CharismaMindImplant.description>Aprimora a capacidade do android de detectar microexpressões em vozes e linguagem corporal, melhorando interações sociais e negociações. Pode ser instalado em androids T1–T5.</CharismaMindImplant.description>
+
+  <NegotiationMindImplant.label>implante de negociador</NegotiationMindImplant.label>
+  <NegotiationMindImplant.description>Auxilia em negociações em uma ampla variedade de cenários, incluindo interrogatório e comércio. Equipamento padrão em modelos android de aplicação da lei. Pode ser instalado em androids T1–T5.</NegotiationMindImplant.description>
+
+  <AnimalMindImplant.label>implante de zoologia</AnimalMindImplant.label>
+  <AnimalMindImplant.description>Aprimora a capacidade do android de ler as emoções animais em profundidade, melhorando o sucesso no amansamento e o manejo de animais. Pode ser instalado em androids T1–T5.</AnimalMindImplant.description>
+
+  <FarmingMindImplant.label>implante agrícola</FarmingMindImplant.label>
+  <FarmingMindImplant.description>Adiciona uma visão aumentada exibindo minerais do solo e saúde das colheitas via varreduras espectrográficas emitidas ao redor do olho. Pode ser instalado em androids T1–T5.</FarmingMindImplant.description>
+
+  <BasicLaborMindImplant.label>chip de trabalho básico</BasicLaborMindImplant.label>
+  <BasicLaborMindImplant.description>O chip padrão de fábrica para androids, ensinando técnicas mais eficientes para tarefas gerais de trabalho em todas as categorias. Pode ser instalado em androids T1–T5.</BasicLaborMindImplant.description>
+
+  <EvolvingImplant.label>atualização de IA evolutiva</EvolvingImplant.label>
+  <EvolvingImplant.description>Um módulo de IA autoaperfeiçoável que gradualmente aprimora todas as capacidades ao longo do tempo através de aprendizado contínuo, eventualmente atingindo eficiência máxima. Pode ser instalado em androids T1–T5.</EvolvingImplant.description>
+
+  <!-- ==================== Peças de Corpo - Cibernético / Arcotécnico ==================== -->
+
+  <CyberReplacementArm.label>braço cibernético</CyberReplacementArm.label>
+  <CyberReplacementArm.description>Um braço feito de compósitos Ultraweave desenvolvidos pelas sociedades mais avançadas de mundos brilhantes. Excepcionalmente resistente e durável. Pode ser instalado em androids T4–T5.</CyberReplacementArm.description>
+
+  <CyberReplacementLeg.label>perna cibernética</CyberReplacementLeg.label>
+  <CyberReplacementLeg.description>Uma rara melhoria de perna que fornece velocidade e força imensas, raramente vista fora de laboratório. Pode ser instalada em androids T4–T5.</CyberReplacementLeg.description>
+
+  <SecretHeatsink.label>dissipador de calor arcotécnico</SecretHeatsink.label>
+  <SecretHeatsink.description>Um dissipador de calor quase perfeito que irradia calor com aproximadamente 99% de eficiência. Pode ser instalado em androids T4–T5.</SecretHeatsink.description>
+
+  <MDEye.label>sensor de luz arcotécnico</MDEye.label>
+  <MDEye.description>Um olho capaz de alternar entre visão 3D e 4D, permitindo ao android prever padrões de movimento com precisão absoluta como se visse eventos antes de ocorrerem. Pode ser instalado em androids T4–T5.</MDEye.description>
+
+  <SecretCoolantPump.label>bomba de refrigeração arcotécnica</SecretCoolantPump.label>
+  <SecretCoolantPump.description>Uma bomba de refrigerante com alcance operacional extraordinário, funcional mesmo a temperaturas próximas ao zero absoluto. Pode ser instalada em androids T4–T5.</SecretCoolantPump.description>
+
+  <SecretBatteryPack.label>bateria arcotécnica</SecretBatteryPack.label>
+  <SecretBatteryPack.description>Inspirada na geração de energia Vanométrica, esta bateria alcança capacidade de carga muito superior a qualquer predecessora. Pode ser instalada em androids T4–T5.</SecretBatteryPack.description>
+
+  <ArchotechNanites.label>reservatório de mecanitos arcotécnico</ArchotechNanites.label>
+  <ArchotechNanites.description>Um compartimento de nanites arcotécnicos cujo funcionamento interno permanece misterioso mesmo para culturas avançadas. O que se sabe: suas capacidades de reparo são excepcionais. Aumenta a taxa de cura do android em 60%. Pode ser instalado em androids T4–T5.</ArchotechNanites.description>
+
+  <MolecularDecomposer.label>biorreator arcotécnico</MolecularDecomposer.label>
+  <MolecularDecomposer.description>Um reator que converte materiais consumidos no nível molecular para eficiência de conversão extraordinária, fazendo outros biorreatores parecerem primitivos. Pode ser instalado em androids T4–T5.</MolecularDecomposer.description>
+
+  <QuantumConverter.label>conversor de energia arcotécnico</QuantumConverter.label>
+  <QuantumConverter.description>Um conversor de energia de ponto zero altamente avançado que transfere energia elétrica pelo corpo com 100% de eficiência. Pode ser instalado em androids T4–T5.</QuantumConverter.description>
+
+  <!-- ==================== Peças de Corpo - Audição ==================== -->
+
+  <CrudeHearingS.label>sensor auditivo rudimentar</CrudeHearingS.label>
+  <CrudeHearingS.description>Um implante básico de interpretação sonora capaz de processar apenas frequências de áudio fundamentais. Pode ser instalado em androids T1–T5.</CrudeHearingS.description>
+
+  <AdvHearingS.label>sensor auditivo avançado</AdvHearingS.label>
+  <AdvHearingS.description>Um sensor auditivo de precisão com alcance de até um quilômetro, capaz de detectar os sons mais fracos. Pode ser instalado em androids T3–T5.</AdvHearingS.description>
+
+  <ArchHearingS.label>sensor auditivo arcotécnico</ArchHearingS.label>
+  <ArchHearingS.description>O ápice da tecnologia de detecção sonora, capaz de detectar todas as frequências com alcance potencialmente ilimitado. Pode ser instalado em androids T4–T5.</ArchHearingS.description>
+
+  <!-- ==================== Peças de Corpo - Olfato ==================== -->
+
+  <CrudeSmellingS.label>sensor olfativo rudimentar</CrudeSmellingS.label>
+  <CrudeSmellingS.description>Um implante olfativo básico que detecta apenas os cheiros mais fundamentais, com melhora marginal na ventilação. Pode ser instalado em androids T1–T5.</CrudeSmellingS.description>
+
+  <SmellingAdvS.label>sensor olfativo avançado</SmellingAdvS.label>
+  <SmellingAdvS.description>Um sensor olfativo avançado com aberturas alargadas para melhor detecção de odores e ventilação aprimorada. Pode ser instalado em androids T2–T5.</SmellingAdvS.description>
+
+  <ArchSmellingS.label>sensor olfativo arcotécnico</ArchSmellingS.label>
+  <ArchSmellingS.description>O ápice da tecnologia olfativa, capaz de detectar todas as faixas de odor com sensibilidade ilimitada e ventilação de ar muito melhorada. Pode ser instalado em androids T4–T5.</ArchSmellingS.description>
+
+  <!-- ==================== Itens de Origem ==================== -->
+
+  <Backstory_PitFighterUpgradeItem.label>manopla de arena</Backstory_PitFighterUpgradeItem.label>
+  <Backstory_PitFighterUpgradeItem.description>Um implante manual personalizado com três espigões hidráulicos e uma placa de metal pesado cobrindo o dorso da mão, dado a este android como marca de sua fama como lutador de arena.</Backstory_PitFighterUpgradeItem.description>
+
+  <Backstory_HighCouncilUpgradeItem.label>mente quântica</Backstory_HighCouncilUpgradeItem.label>
+  <Backstory_HighCouncilUpgradeItem.description>Uma atualização de mente artificial altamente exótica que supostamente usa tunelamento quântico para ler os padrões neurais de falantes próximos antes mesmo de formarem pensamentos em palavras.</Backstory_HighCouncilUpgradeItem.description>
+
+  <Backstory_TranscendantAssimilatorUpgradeItem.label>manopla de plasma</Backstory_TranscendantAssimilatorUpgradeItem.label>
+  <Backstory_TranscendantAssimilatorUpgradeItem.description>Duas lâminas permanentemente estendidas no antebraço de peso imenso. Quando ativadas, aquecem ao rubro branco, convertendo o ar ao redor em plasma usando tecnologia nunca vista antes.</Backstory_TranscendantAssimilatorUpgradeItem.description>
+
+  <!-- ==================== Recursos ==================== -->
+
+  <RepairKitAT.label>kit de atualização</RepairKitAT.label>
+  <RepairKitAT.description>Um kit especializado contendo ferramentas e materiais para reparar e modificar androids.</RepairKitAT.description>
+
+  <AndroidT1Kit.label>kit de montagem android</AndroidT1Kit.label>
+  <AndroidT1Kit.description>Contém as peças desmontadas de um android T1 embaladas para transporte eficiente, junto com instruções de montagem claras o suficiente para qualquer pessoa seguir.</AndroidT1Kit.description>
+
+  <AndroidT2Kit.label>kit de montagem android avançado</AndroidT2Kit.label>
+  <AndroidT2Kit.description>Contém as peças desmontadas de um android T2 embaladas para transporte eficiente, junto com instruções de montagem claras o suficiente para qualquer pessoa seguir.</AndroidT2Kit.description>
+
+  <!-- ==================== Projéteis ==================== -->
+
+  <Nanoswarm_shell.label>projétil de enxame</Nanoswarm_shell.label>
+  <Nanoswarm_shell.description>Um projétil pressurizado repleto de micro-ceifadores — pequenos drones programados para buscar e eliminar alvos próximos após a detonação.</Nanoswarm_shell.description>
+
+  <!-- ==================== Materiais ==================== -->
+
+  <ChemicalEgg.label>cápsula química</ChemicalEgg.label>
+  <ChemicalEgg.description>Uma cápsula rígida repleta de hidrocarbonetos processados e outros produtos químicos. Pode ser refinada em neutraminol ou combucombustível num laboratório de drogas ou refinaria.</ChemicalEgg.description>
+
+  <SteelWool.label>lã metálica</SteelWool.label>
+  <SteelWool.description>Lã artificial feita de longas fibras metálicas produzidas pela unidade de fitomineração. Usada principalmente para fundir em aço, mas também pode ser tecida em roupas pesadas. Colonos humanos que vestirem roupas de lã metálica sofrerão penalidades de humor, a menos que sejam masoquistas; androids não são afetados.</SteelWool.description>
+
+  <NSolution.label>solução nutritiva</NSolution.label>
+  <NSolution.description>Uma substância oleosa e rica em calorias extraída da unidade N.Solution. Fácil de armazenar e nutritiva, embora não particularmente apetitosa.</NSolution.description>
+
+  <!-- ==================== Armas ==================== -->
+
+  <Mech40MMCannon.label>canhão de 40mm</Mech40MMCannon.label>
+  <Mech40MMCannon.description>Arma padrão de fábrica montada em todos os Mechs M7 durante a produção. Capaz de disparar em rajadas três projéteis de 80kg em rápida sucessão, projetada para combate antimaterial e mech contra mech.</Mech40MMCannon.description>
+
+  <MechMastiffGun.label>escopeta mastiff</MechMastiffGun.label>
+  <MechMastiffGun.description>Uma escopeta mech que resfria seus projéteis especializados a abaixo de -100°C antes de disparar. O frio extremo torna os projéteis frágeis, fazendo-os se fragmentar dentro do alvo no impacto para dano interno devastador.</MechMastiffGun.description>
+
+  <MechHandCannon.label>canhão de mão</MechHandCannon.label>
+  <MechHandCannon.description>A Pistola X-5, conhecida como 'canhão de mão', é uma pistola semiautomática com raiamento especializado que dispara projéteis a velocidade imensa, causando danos severos a alvos mecânicos e biológicos.</MechHandCannon.description>
+
+  <MeleeWeapon_MechKnife.label>lâmina mech</MeleeWeapon_MechKnife.label>
+  <MeleeWeapon_MechKnife.description>Uma lâmina longa e pesada feita de titânio de 3 polegadas de espessura, fornecendo capacidade de combate corpo a corpo devastadora a qualquer unidade mech que a empunhe.</MeleeWeapon_MechKnife.description>
+
+  <AntiMechRifle.label>rifle antimech</AntiMechRifle.label>
+  <AntiMechRifle.description>Um rifle enorme criado com um único propósito: abater infantaria mecanizada. Sua alta potência de parada causa danos devastadores até nos oponentes mais robustos.</AntiMechRifle.description>
+
 </LanguageData>

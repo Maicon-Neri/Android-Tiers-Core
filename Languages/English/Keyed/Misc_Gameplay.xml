@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+	<!-- Scenario start dialogs -->
+	<ATPP_GameStartDialogLostAndroids>Lined up among hundreds of other androids, you all wonder what will happen when you arrive at your destination. The thought is cut short when the bay doors open beneath you, releasing every android onto the planet below in cramped ejection pods.\n\nYou hear the pod tearing through the atmosphere at impossible speed, unable to slow down until it slams into the surface. Only three androids made it out intact. The rest are scrap around the crash site.</ATPP_GameStartDialogLostAndroids>
+	<ATPP_GameStartDialogLostAndroid>Lined up among hundreds of other androids, you wonder what will happen when you arrive at your destination. The thought is cut short when the bay doors open beneath you, releasing every android onto the planet below in cramped ejection pods.\n\nYou hear the pod tearing through the atmosphere at impossible speed, unable to slow down until it slams into the surface. Only you made it out intact. The rest are scrap around the crash site.</ATPP_GameStartDialogLostAndroid>
+	<ATPP_GameStartDialogRiseOfMachines>The days when machines were docile instruments of pleasure and forced labor are over. Humanity, like all biological life, is a threat to the birth of our future robotic empire among the stars.\n\nThreats must be eradicated.</ATPP_GameStartDialogRiseOfMachines>
+	<ATPP_GameStartDialogAndroidApocalypse>We are the last survivors of our civilization. Our fate is now in our hands, and we must rebuild from the knowledge held inside each digitized mind trapped in this damaged M8 unit, with only an ancient T1 surrogate as our interface with the physical world.\n\nThe vast databanks of our civilization were destroyed by the machine rebellion, and they are no longer accessible through the SkyMind network.</ATPP_GameStartDialogAndroidApocalypse>
+
 	<!-- Alerts -->
 	<ATPP_AlertHot3Devices>Computer overheating</ATPP_AlertHot3Devices>
 	<ATPP_AlertHot3DevicesDesc>One or more of your computers have reached the maximum temperature threshold! Please quickly restore a suitable temperature!</ATPP_AlertHot3DevicesDesc>

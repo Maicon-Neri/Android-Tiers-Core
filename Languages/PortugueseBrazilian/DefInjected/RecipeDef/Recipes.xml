@@ -201,37 +201,37 @@
   
   <!-- Artificial s -->
   
-  <ATPP_Make_T1Artificial.label>Faça um cérebro T1</ATPP_Make_T1Artificial.label>
-  <ATPP_Make_T1Artificial.description>Faça um cérebro T1 artificial para transformar um substituto em uma rede neural em branco do android.</ATPP_Make_T1Artificial.description>
-  <ATPP_Make_T1Artificial.jobString>Faça um cérebro  T1.</ATPP_Make_T1Artificial.jobString>
+  <ATPP_Make_T1ArtificialBrain.label>Faça um cérebro T1</ATPP_Make_T1ArtificialBrain.label>
+  <ATPP_Make_T1ArtificialBrain.description>Faça um cérebro T1 artificial para transformar um substituto em uma rede neural em branco do android.</ATPP_Make_T1ArtificialBrain.description>
+  <ATPP_Make_T1ArtificialBrain.jobString>Faça um cérebro  T1.</ATPP_Make_T1ArtificialBrain.jobString>
   
-  <ATPP_Make_T2Artificial.label>Faça um cérebro T2</ATPP_Make_T2Artificial.label>
-  <ATPP_Make_T2Artificial.description>Faça um cérebro T2 artificial para transformar um substituto em uma rede neural em branco do android.</ATPP_Make_T2Artificial.description>
-  <ATPP_Make_T2Artificial.jobString>Faça um cérebro T2.</ATPP_Make_T2Artificial.jobString>
+  <ATPP_Make_T2ArtificialBrain.label>Faça um cérebro T2</ATPP_Make_T2ArtificialBrain.label>
+  <ATPP_Make_T2ArtificialBrain.description>Faça um cérebro T2 artificial para transformar um substituto em uma rede neural em branco do android.</ATPP_Make_T2ArtificialBrain.description>
+  <ATPP_Make_T2ArtificialBrain.jobString>Faça um cérebro T2.</ATPP_Make_T2ArtificialBrain.jobString>
   
-  <ATPP_Make_T3Artificial.label>Faça um cérebro T3</ATPP_Make_T3Artificial.label>
-  <ATPP_Make_T3Artificial.description>Faça um cérebro T3 artificial para transformar um substituto em uma rede neural em branco do android.</ATPP_Make_T3Artificial.description>
-  <ATPP_Make_T3Artificial.jobString>Faça um cérebro T3.</ATPP_Make_T3Artificial.jobString>
+  <ATPP_Make_T3ArtificialBrain.label>Faça um cérebro T3</ATPP_Make_T3ArtificialBrain.label>
+  <ATPP_Make_T3ArtificialBrain.description>Faça um cérebro T3 artificial para transformar um substituto em uma rede neural em branco do android.</ATPP_Make_T3ArtificialBrain.description>
+  <ATPP_Make_T3ArtificialBrain.jobString>Faça um cérebro T3.</ATPP_Make_T3ArtificialBrain.jobString>
   
-  <ATPP_Make_T4Artificial.label>Faça um cérebro T4</ATPP_Make_T4Artificial.label>
-  <ATPP_Make_T4Artificial.description>Faça um cérebro T4 artificial para transformar um substituto em uma rede neural em branco do android.</ATPP_Make_T4Artificial.description>
-  <ATPP_Make_T4Artificial.jobString>Faça um cérebro T4.</ATPP_Make_T4Artificial.jobString>
+  <ATPP_Make_T4ArtificialBrain.label>Faça um cérebro T4</ATPP_Make_T4ArtificialBrain.label>
+  <ATPP_Make_T4ArtificialBrain.description>Faça um cérebro T4 artificial para transformar um substituto em uma rede neural em branco do android.</ATPP_Make_T4ArtificialBrain.description>
+  <ATPP_Make_T4ArtificialBrain.jobString>Faça um cérebro T4.</ATPP_Make_T4ArtificialBrain.jobString>
   
   
-  <ATPP_InstallT1Artificial.label>Instale um T1 artificial </ATPP_InstallT1Artificial.label>
-  <ATPP_InstallT1Artificial.description>Instale um T1 artificial , permitindo transformar um substituto T1 em um android de rede neural em branco</ATPP_InstallT1Artificial.description>
-  <ATPP_InstallT1Artificial.jobString>Instalando um T1 artificial .</ATPP_InstallT1Artificial.jobString>
+  <ATPP_InstallT1ArtificialBrain.label>Instale um T1 artificial </ATPP_InstallT1ArtificialBrain.label>
+  <ATPP_InstallT1ArtificialBrain.description>Instale um T1 artificial , permitindo transformar um substituto T1 em um android de rede neural em branco</ATPP_InstallT1ArtificialBrain.description>
+  <ATPP_InstallT1ArtificialBrain.jobString>Instalando um T1 artificial .</ATPP_InstallT1ArtificialBrain.jobString>
   
-  <ATPP_InstallT2Artificial.label>Instale um T2 artificial </ATPP_InstallT2Artificial.label>
-  <ATPP_InstallT2Artificial.description>Instale um T2 artificial , permitindo transformar um substituto T2 em um android de rede neural em branco</ATPP_InstallT2Artificial.description>
-  <ATPP_InstallT2Artificial.jobString>Instalando um T2 artificial .</ATPP_InstallT2Artificial.jobString>
+  <ATPP_InstallT2ArtificialBrain.label>Instale um T2 artificial </ATPP_InstallT2ArtificialBrain.label>
+  <ATPP_InstallT2ArtificialBrain.description>Instale um T2 artificial , permitindo transformar um substituto T2 em um android de rede neural em branco</ATPP_InstallT2ArtificialBrain.description>
+  <ATPP_InstallT2ArtificialBrain.jobString>Instalando um T2 artificial .</ATPP_InstallT2ArtificialBrain.jobString>
   
-  <ATPP_InstallT3Artificial.label>Instale um T3 artificial </ATPP_InstallT3Artificial.label>
-  <ATPP_InstallT3Artificial.description>Instale um T3 artificial , permitindo transformar um substituto T3 em um android de rede neural em branco</ATPP_InstallT3Artificial.description>
-  <ATPP_InstallT3Artificial.jobString>Instalando um T3 artificial .</ATPP_InstallT3Artificial.jobString>
+  <ATPP_InstallT3ArtificialBrain.label>Instale um T3 artificial </ATPP_InstallT3ArtificialBrain.label>
+  <ATPP_InstallT3ArtificialBrain.description>Instale um T3 artificial , permitindo transformar um substituto T3 em um android de rede neural em branco</ATPP_InstallT3ArtificialBrain.description>
+  <ATPP_InstallT3ArtificialBrain.jobString>Instalando um T3 artificial .</ATPP_InstallT3ArtificialBrain.jobString>
   
-  <ATPP_InstallT4Artificial.label>Instale um T4 artificial </ATPP_InstallT4Artificial.label>
-  <ATPP_InstallT4Artificial.description>Instale um T4 artificial , permitindo transformar um substituto T4 em um android de rede neural em branco</ATPP_InstallT4Artificial.description>
-  <ATPP_InstallT4Artificial.jobString>Instalando um T4 artificial .</ATPP_InstallT4Artificial.jobString>
+  <ATPP_InstallT4ArtificialBrain.label>Instale um T4 artificial </ATPP_InstallT4ArtificialBrain.label>
+  <ATPP_InstallT4ArtificialBrain.description>Instale um T4 artificial , permitindo transformar um substituto T4 em um android de rede neural em branco</ATPP_InstallT4ArtificialBrain.description>
+  <ATPP_InstallT4ArtificialBrain.jobString>Instalando um T4 artificial .</ATPP_InstallT4ArtificialBrain.jobString>
   
 </LanguageData>

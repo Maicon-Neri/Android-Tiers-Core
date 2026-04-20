@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Male_AndroidPaintJob_1</defName>
+    <graphicPath>Things/Droids/tier5/head/Male_AndroidPaintJob_1</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Male_AndroidPaintJob_2</defName>
+    <graphicPath>Things/Droids/tier2/head/Male_AndroidPaintJob_2</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+</Defs>

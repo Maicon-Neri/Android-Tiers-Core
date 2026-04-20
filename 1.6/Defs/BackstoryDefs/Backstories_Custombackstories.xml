@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>AndroidPitfighter</defName>
+    <identifier>AndroidPitfighter</identifier>
+    <title>Pit fighter</title>
+    <titleShort>Fighter</titleShort>
+    <description>As a form of entertainment amongst mercenaries, android captives would be pitted together to fight in a makeshift arena aboard their ship. Those who survived grew quite popular aboard the ship, {PAWN_nameDef} was one of those androids, dubbed "The mantis" for their ability to dodge hits with ease and the custom implants the crew put on them.</description>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>AndroidGeneral</li>
+      <li>BigMeanies</li>
+    </spawnCategories>
+    <skillGains>
+      <Melee>10</Melee>
+    </skillGains>
+    <workDisables>Cooking, Caring, Animals, Intellectual</workDisables>
+  </BackstoryDef>
+</Defs>

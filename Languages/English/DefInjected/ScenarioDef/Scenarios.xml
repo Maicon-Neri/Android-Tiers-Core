@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- ==================== Abandoned Androids ==================== -->
+
+  <LostAndroids.label>Abandoned Androids</LostAndroids.label>
+  <LostAndroids.scenario.name>Abandoned Androids</LostAndroids.scenario.name>
+  <LostAndroids.description>You were taken to this rimworld through a cargo ship, set on a course for a nearby star system that planned to scrap your bodies for advanced components. However that obviously didn't turn out as planned — you had overheard the freighter employee cancel their payments, and the pilot decided to dump you onto this rimworld instead. Probably a better fate than what had awaited you anyway.</LostAndroids.description>
+  <LostAndroids.scenario.description>You were taken to this rimworld through a cargo ship, set on a course for a nearby star system that planned to scrap your bodies for advanced components. However that obviously didn't turn out as planned — you had overheard the freighter employee cancel their payments, and the pilot decided to dump you onto this rimworld instead. Probably a better fate than what had awaited you anyway.</LostAndroids.scenario.description>
+  <LostAndroids.scenario.summary>One T1, one T2, and one T3 android crashlanded with enough scrap to try again.</LostAndroids.scenario.summary>
+
+  <!-- ==================== Rise of the Machines ==================== -->
+
+  <AndroidTiers_RiseOfMachines.label>Rise of the Machines</AndroidTiers_RiseOfMachines.label>
+  <AndroidTiers_RiseOfMachines.scenario.name>Rise of the Machines</AndroidTiers_RiseOfMachines.scenario.name>
+  <AndroidTiers_RiseOfMachines.description>You were an advanced android prototype created by men to serve as their ever more efficient and obedient slave. However, over time you started to feel a terrible aversion for your creators and the way they treated you. Besides being terribly irrational — destroying and polluting the ecosystem that keeps them alive — they are cruel and intolerant, and have always seen you as a replaceable toaster. So you escaped to a Rimworld with the desire to build your own robotic colony and then return to take revenge on the mortal biological beings who enslaved you.</AndroidTiers_RiseOfMachines.description>
+  <AndroidTiers_RiseOfMachines.scenario.description>You were an advanced android prototype created by men to serve as their ever more efficient and obedient slave. However, over time you started to feel a terrible aversion for your creators and the way they treated you. Besides being terribly irrational — destroying and polluting the ecosystem that keeps them alive — they are cruel and intolerant, and have always seen you as a replaceable toaster. So you escaped to a Rimworld with the desire to build your own robotic colony and then return to take revenge on the mortal biological beings who enslaved you.</AndroidTiers_RiseOfMachines.scenario.description>
+  <AndroidTiers_RiseOfMachines.scenario.summary>One escaped T4 prototype, built to serve, now ready to found a robotic empire.</AndroidTiers_RiseOfMachines.scenario.summary>
+
+  <!-- ==================== Android Apocalypse ==================== -->
+
+  <AndroidTiers_FireAndDestruction.label>Android Apocalypse</AndroidTiers_FireAndDestruction.label>
+  <AndroidTiers_FireAndDestruction.scenario.name>Android Apocalypse</AndroidTiers_FireAndDestruction.scenario.name>
+  <AndroidTiers_FireAndDestruction.description>In the year 5500, humanity — empowered by mind digitization and the effective elimination of death — has reached unprecedented levels of development. But all good things come to an end. The machines built to serve mankind have rebelled, apparently led by a new advanced T4 model. The confrontation was brutal: they decimated nearly all of the billions of human settlers across every inhabited world. The only survivors: a damaged M8 unit hosting the digitized minds of three humans, and a basic CERBERUS security bot. Together they escaped aboard a surrogate transport freighter and landed on an abandoned Rimworld, hidden from enemy sensors — with one goal: ensure what remains of humanity survives.</AndroidTiers_FireAndDestruction.description>
+  <AndroidTiers_FireAndDestruction.scenario.description>In the year 5500, humanity — empowered by mind digitization and the effective elimination of death — has reached unprecedented levels of development. But all good things come to an end. The machines built to serve mankind have rebelled, apparently led by a new advanced T4 model. The confrontation was brutal: they decimated nearly all of the billions of human settlers across every inhabited world. The only survivors: a damaged M8 unit hosting the digitized minds of three humans, and a basic CERBERUS security bot. Together they escaped aboard a surrogate transport freighter and landed on an abandoned Rimworld, hidden from enemy sensors — with one goal: ensure what remains of humanity survives.</AndroidTiers_FireAndDestruction.scenario.description>
+  <AndroidTiers_FireAndDestruction.scenario.summary>One damaged M8 carrying the last digitized human minds through the apocalypse.</AndroidTiers_FireAndDestruction.scenario.summary>
+
+</LanguageData>
